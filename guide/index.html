@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta name="robots" content="noindex,nofollow">
+
+    <title>Installation Guide | Bastion</title>
+
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#657eda">
+    <meta name="apple-mobile-web-app-title" content="Bastion BOT">
+    <meta name="application-name" content="Bastion BOT">
+    <meta name="theme-color" content="#f2f4f3">
+
+    <meta name="author" content="Sankarsan Kampa">
+    <meta name="description" content="Read how to install & setup Bastion BOT and start rocking!">
+    <meta name="keywords" content="Bastion,Discord,Bot,DiscordBOT,BastionBOT,Node,NodeJS,JavaScript,JS,Music,Moderation,Administration,Games,Search,Chat,Sankarsan,Kampa,snkrsnkampa">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Installation Guide | Bastion">
+    <meta property="og:url" content="https://snkrsnkampa.github.io/Bastion-Site/guide">
+    <meta property="og:image" content="https://snkrsnkampa.github.io/Bastion-Site/assets/images/bastion.png">
+
+    <style>
+      html.ios {
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+      }
+      html.ios,
+      html.ios body {
+        height: initial !important;
+      }
+      #mainContainer {
+        padding-top: 2.85em;
+        background: #F2F4F3
+      }
+      #logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        font-size: 2em;
+        color: #3F393D
+      }
+      #logo::before{background:none}
+      .item.close {text-align:right;cursor:pointer}
+      @media (max-width:900px) {
+        .item.donate span, .item.addBot span{display:none}
+      }
+      @media (max-width:768px) {
+        #logo {transform: translateX(-75%)}
+        #menu-icon span{display:none}
+      }
+      @media (max-width:369px) {
+        #logo {display:none}
+      }
+    </style>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  
+  <body id="top">
+    <div class="ui left vertical menu sidebar">
+      <div class="item close">CLOSE<i class="x icon"></i></div>
+      <a href="/" class="item">Home</a>
+      <a href="#top" class="blue item active">Guide</a>
+      <a href="/commands/" class="item">Commands</a>
+      <a href="/support/" class="item">Help &amp; Support</a>
+      <a href="/add/" class="item">Add BOT to Discord</a>
+      
+      <div class="grey item active">MORE<i class="angle down icon"></i></div>
+      <a href="/faq/" class="item">F.A.Q.</a>
+      <a href="/changes/" class="item">Change Log</a>
+      <a href="https://sankarsankampa.com" target="_blank" class="item">Developer<i class="external icon"></i></a>
+      <a href="https://sankarsankampa.com/contact" target="_blank" class="item">Contact<i class="external icon"></i></a>
+    </div>
+    
+    <div class="pusher">
+    <div class="ui top fixed menu">
+      <a id="menu-icon" class="item">
+        <i class="tasks icon"></i>
+        <span>MENU</span>
+      </a>
+      <a href="#top" class="item popup" id="logo" data-content="Lovingly Designed & Developed by @snkrsnkampa" data-variation="mini inverted">BASTION</a>
+      <div class="right menu">
+        <a href="/support/donate/" class="item donate"><i class="money icon"></i><span>Donate</span></a>
+        <a href="https://discord.gg/fzx8fkt" class="item addBot"><i class="add user icon"></i><span>Join Discord</span></a>
+      </div>
+    </div>
+    <div id="mainContainer" class="container">
+      <div class="ui container">
+        <h2>Installation &amp; Setup Guide</h2>
+        <div class="ui equal width grid">
+          <div class="two column row">
+            <div class="column">
+              <h3 id="step1">1.&ensp;Create a Discord BOT Application</h3>
+              <div class="ui list">
+                <div class="item">Go to the <a href="https://discordapp.com/developers/applications/me" target="_blank">Discord Developer Application Page</a></div>
+                <div class="item">Log in with your Discord account.</div>
+                <div class="item">Click on the <b>+ New App</b> button.</div>
+                <div class="item">Fill in the <b>App Name</b> (i.e., your bot's name), add an optional Avatar and Description for your bot.</div>
+                <div class="item">Click on the <b>Create App</b> button.</div>
+                <div class="item">Click on <b>Create a Bot User</b> button and confirm that you want to add a bot to this app.</div>
+              </div>
+              
+              <h3 id="step2">2.&ensp;Invite your BOT to Discord</h3>
+              <div class="ui list">
+                <div class="item">Copy your bot's <b>Client ID</b> from your <a href="https://discordapp.com/developers/applications/me" target="_blank">Discord Applications</a> page.</div>
+                <div class="item">
+                  <p>Paste your <b>Client ID</b> here and click on <b>Invite</b> button, to invite your BOT to the server</p>
+                  <div class="ui mini action input">
+                    <input id="clientID" placeholder="113355779922446688" type="text" onkeyup="invLink(this)">
+                    <button class="ui blue right labeled icon button" onclick="openInvLink(this)">
+                      <i class="add icon"></i>Invite
+                    </button>
+                    <script>
+                      function invLink() {
+                        let INSERT_CLIENT_ID_HERE = document.getElementById('clientID').value;
+                        document.getElementById('inviteLink').innerHTML = `https://discordapp.com/oauth2/authorize?client_id=${INSERT_CLIENT_ID_HERE}&scope=bot&permissions=2146958463`;
+                      }
+                      function openInvLink() {
+                        let INSERT_CLIENT_ID_HERE = document.getElementById('clientID').value;
+                        let url = `https://discordapp.com/oauth2/authorize?client_id=${INSERT_CLIENT_ID_HERE}&scope=bot&permissions=2146958463`;
+                        window.open(url)
+                      }
+                    </script>
+                  </div>
+                </div>
+                <pre id="inviteLink">https://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE&scope=bot&permissions=2146958463</pre>
+              </div>
+              
+              <h3 id="step3">3.&ensp;Installation</h3>
+              <div class="ui tiny message">
+                  <div class="header">
+                    Want to host Bastion on a VPS?
+                  </div>
+                <p>If you want Bastion to server 24/7 without having to hosting it on your PC and want to keep it cheap, reliable and convenient as possible, you can install Bastion, using following guide, on a <a href="#0">Digital Ocean</a> Linux VPS using <a href="#0">this link</a> (using this link will be supporting Bastion and will give you <b>$10 credit</b>)</p>
+              </div>
+              <p>Select your Operating System for specific installation instructions.</p>
+              <div class="ui four doubling link cards">
+                <a class="card" href="linux/">
+                  <div class="image">
+                    <img src="/assets/images/linux.jpg">
+                  </div>
+                  <div class="content">
+                    <div class="header">Linux</div>
+                  </div>
+                </a>
+                <a class="card" href="macOS/">
+                  <div class="image">
+                    <img src="/assets/images/macOS.jpg">
+                  </div>
+                  <div class="content">
+                    <div class="header">macOS</div>
+                  </div>
+                </a>
+                <a class="card" href="windows/">
+                  <div class="image">
+                    <img src="/assets/images/windows.jpg">
+                  </div>
+                  <div class="content">
+                    <div class="header">Windows</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+            <div class="four wide large screen only column">
+              <div class="ui animated link list stickymenu">
+                <a href="#step1" class="item">Create A Discord BOT App</a>
+                <a href="#step2" class="item">Invite BOT to Discord</a>
+                <a href="#step3" class="item">Install Bastion BOT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="ui divider"></div>
+        <p>&copy; 2017 Sankarsan Kampa<br>All Rights Reserved</p>
+      </div>
+    </div>
+    </div>
+    
+    <script src="/assets/js/jquery-3.1.1.min.js"></script>
+    <script src="/assets/js/main.min.js"></script>
+    <script>
+      $('#menu-icon').click(function() {
+          $('.ui.sidebar').sidebar('setting', {
+            returnScroll: true,
+            scrollLock: true,
+            defaultTransition: {
+              computer: {
+                left   : 'push'
+              },
+              mobile: {
+                left   : 'push'
+              }
+            }
+          })
+          $('.ui.sidebar').sidebar('toggle');
+      });
+      $('.item.close').click(function() {
+        $('.ui.sidebar').sidebar('toggle');
+      });
+      $('.popup')
+        .popup({
+          delay: {
+            show: 500,
+            hide: 0
+          }
+        })
+      ;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta name="robots" content="noindex,nofollow">
+
+    <title>Frequently Asked Questions (F.A.Q.) | Bastion</title>
+
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#657eda">
+    <meta name="apple-mobile-web-app-title" content="Bastion BOT">
+    <meta name="application-name" content="Bastion BOT">
+    <meta name="theme-color" content="#f2f4f3">
+
+    <meta name="author" content="Sankarsan Kampa">
+    <meta name="description" content="Get answers to frequently asked questions on Bastion BOT.">
+    <meta name="keywords" content="Bastion,Discord,Bot,DiscordBOT,BastionBOT,Node,NodeJS,JavaScript,JS,Music,Moderation,Administration,Games,Search,Chat,Sankarsan,Kampa,snkrsnkampa">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Frequently Asked Questions (F.A.Q.) | Bastion">
+    <meta property="og:url" content="https://snkrsnkampa.github.io/Bastion-Site/faq">
+    <meta property="og:image" content="https://snkrsnkampa.github.io/Bastion-Site/assets/images/bastion.png">
+
+    <style>
+      html.ios {
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+      }
+      html.ios,
+      html.ios body {
+        height: initial !important;
+      }
+      #mainContainer {
+        padding-top: 2.85em;
+        background: #F2F4F3
+      }
+      #logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        font-size: 2em;
+        color: #3F393D
+      }
+      #logo::before{background:none}
+      .item.close {text-align:right;cursor:pointer}
+      @media (max-width:900px) {
+        .item.donate span, .item.addBot span{display:none}
+      }
+      @media (max-width:768px) {
+        #logo {transform: translateX(-75%)}
+        #menu-icon span{display:none}
+      }
+      @media (max-width:369px) {
+        #logo {display:none}
+      }
+    </style>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  
+  <body id="top">
+    <div class="ui left vertical menu sidebar">
+      <div class="item close">CLOSE<i class="x icon"></i></div>
+      <a href="/" class="item">Home</a>
+      <a href="/guide/" class="item">Guide</a>
+      <a href="/commands/" class="item">Commands</a>
+      <a href="/support/" class="item">Help &amp; Support</a>
+      <a href="/add/" class="item">Add BOT to Discord</a>
+      
+      <div class="grey item active">MORE<i class="angle down icon"></i></div>
+      <a href="#top" class="blue item active">F.A.Q.</a>
+      <a href="/changes/" class="item">Change Log</a>
+      <a href="https://sankarsankampa.com" target="_blank" class="item">Developer<i class="external icon"></i></a>
+      <a href="https://sankarsankampa.com/contact" target="_blank" class="item">Contact<i class="external icon"></i></a>
+    </div>
+    
+    <div class="pusher">
+    <div class="ui top fixed menu">
+      <a id="menu-icon" class="item">
+        <i class="tasks icon"></i>
+        <span>MENU</span>
+      </a>
+      <a href="#top" class="item popup" id="logo" data-content="Lovingly Designed & Developed by @snkrsnkampa" data-variation="mini inverted">BASTION</a>
+      <div class="right menu">
+        <a href="/support/donate/" class="item donate"><i class="money icon"></i><span>Donate</span></a>
+        <a href="https://discord.gg/fzx8fkt" class="item addBot"><i class="add user icon"></i><span>Join Discord</span></a>
+      </div>
+    </div>
+    <div id="mainContainer" class="container">
+      <div class="ui container">
+        <h2>Frequently Asked Questions</h2>
+        <p id="general">GENERAL / BASIC</p>
+        <div class="ui styled fluid accordion">
+          <div class="title">Question 1:&ensp;What is a guild?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>A Discord Guild is just a technical term for Discord Servers, that's all.</p>
+            </div>
+          </div>
+          <div class="title">Question 2:&ensp;How do I an ID (User ID, Channel ID, etc.)?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>Turn on <b>Developer Mode</b> in the Discord client <b>(User Settings -> Appearance)</b> and then Right-Click on <b>Users</b>/<b>Channels</b>/<b>Servers</b> and select <b>Copy ID</b>.</p>
+              <p>For Role IDs, you instead need to Right-Click on role mentions <i>(@somerole)</i> and select <b>Copy ID</b>.</p>
+              <img class="faqimg" src="/assets/images/discord_developer_mode.jpg" style="max-width:785px">
+            </div>
+          </div>
+          <div class="title">Question 3:&ensp;I have an issue, where can I ask for help?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>If you ever face any problems with the BOT or you don't understard something, or if you need any kind of help with the BOT, just head over to the <a href="https://discord.gg/fzx8fkt" target="_blank">#help</a> channel in <a href="https://discord.gg/fzx8fkt" target="_blank">Bastion BOT Official Discord Server</a>, and ask for help. Everyone will be more than willing to help you.</p>
+            </div>
+          </div>
+          <div class="title">Question 4:&ensp;I found a bug with the BOT, how/where can I report it?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>See if it's already reported in <a href="https://github.com/snkrsnkampa/Bastion/issues" target="_blank">GitHub Issues Page</a> or in <a href="https://discord.gg/fzx8fkt" target="_blank">#bugs</a> channel of <a href="https://discord.gg/fzx8fkt" target="_blank">Bastion BOT Official Discord Server</a>. If it's not reported, either <a href="https://github.com/snkrsnkampa/Bastion/issues" target="_blank">create a new issue in GitHub</a> or report it in <a href="https://discord.gg/fzx8fkt" target="_blank">#bugs</a> channel of <a href="https://discord.gg/fzx8fkt" target="_blank">Bastion BOT Official Discord Server</a></p>
+            </div>
+          </div>
+          <div class="title">Question 5:&ensp;I have a suggestion for the BOT, how can I let you know?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>You can send us your suggestions in respective channels in <a href="https://discord.gg/fzx8fkt" target="_blank">Bastion BOT Official Discord Server</a>. Or you can do a PR with your suggestions in the <a href="https://github.com/snkrsnkampa/Bastion" target="_blank">Bastion BOT Github Repo</a>.</p>
+            </div>
+          </div>
+        </div>
+        <br><p id="configuration">CONFIGURATION</p>
+        <div class="ui styled fluid accordion">
+          <div class="title">Question 1:&ensp;How do I change the prefix, default status or default game of the BOT?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <div class="ui list">
+                <div class="item">Open the <code>config.json</code> file in <code>Bastion/settings/</code> directory, with a text editor.</div>
+                <div class="ui compact mini error message">
+                  <i class="warning icon"></i>DO NOT ever use Notepad to open the file. It breaks the file. Atleast use <a class="popup" href="https://notepad-plus-plus.org/" title="Source code editor and Notepad replacement" data-variation="mini inverted" target="_blank">Notepad++</a> or <a class="popup" href="https://atom.io" title="A hackable text editor for the 21st Century" data-variation="mini inverted" target="_blank">Atom</a>.
+                </div>
+                <div class="ui compact mini info message">
+                  <i class="info icon"></i>If you do not see the <code>.json</code> file extension of the <code>config.json</code> file, you most likely have <b>Hide file extensions</b> enabled.
+                </div>
+                <div class="item">Edit the default <b>Prefix</b>, <b>Status</b> and <b>Game</b> of Bastion BOT, if you wish to. It should look like the image below:</div>
+                <img class="faqimg" src="/assets/images/config.jpg" style="max-width:446px">
+                <div class="item">Save &amp; close the file.</div>
+              </div>
+            </div>
+          </div>
+          <div class="title">Question 2:&ensp;How do I change the BOT Token, BOT ID or Owner ID?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <div class="ui list">
+                <div class="item">Open the <code>credentials.json</code> file in <code>Bastion/settings/</code> directory, with a text editor.</div>
+                <div class="ui compact mini error message">
+                  <i class="warning icon"></i>On Windows, DO NOT ever use Notepad to open the file. It breaks the file. Atleast use <a class="popup" href="https://notepad-plus-plus.org/" title="Source code editor and Notepad replacement" data-variation="mini inverted" target="_blank">Notepad++</a> or <a class="popup" href="https://atom.io" title="A hackable text editor for the 21st Century" data-variation="mini inverted" target="_blank">Atom</a>.
+                </div>
+                <div class="ui compact mini info message">
+                  <i class="info icon"></i>On Windows, if you do not see the <code>.json</code> file extension of the <code>credentials.json</code> file, you most likely have <b>Hide file extensions</b> enabled.
+                </div>
+                <div class="item">Add <b>BOT ID</b>, <b>Token</b> and <b>Owner ID(s)</b> in the respective placeholders. It should look like the image below:</div>
+                <img class="faqimg" src="/assets/images/credentials.jpg" style="max-width:1129px">
+                <div class="item">Save &amp; close the file.</div>
+              </div>
+            </div>
+          </div>
+          <div class="title">Question 3:&ensp;How do I add more than one Owner to the BOT?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <div class="ui list">
+                <div class="item">Open the <code>credentials.json</code> file in <code>Bastion/settings/</code> directory, with a text editor.</div>
+                <div class="ui compact mini error message">
+                  <i class="warning icon"></i>On Windows, DO NOT ever use Notepad to open the file. It breaks the file. Atleast use <a class="popup" href="https://notepad-plus-plus.org/" title="Source code editor and Notepad replacement" data-variation="mini inverted" target="_blank">Notepad++</a> or <a class="popup" href="https://atom.io" title="A hackable text editor for the 21st Century" data-variation="mini inverted" target="_blank">Atom</a>.
+                </div>
+                <div class="ui compact mini info message">
+                  <i class="info icon"></i>On Windows, if you do not see the <code>.json</code> file extension of the <code>credentials.json</code> file, you most likely have <b>Hide file extensions</b> enabled.
+                </div>
+                <div class="item">Add <code>,</code>to the previous <b>BOT ID</b> then add another ID after that. It should look like the image below:</div>
+                <img class="faqimg" src="/assets/images/multiple_ownerIDs.jpg" style="max-width:412px">
+                <div class="item">Save &amp; close the file.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><p id="levelXP">LEVEL / XP / CURRENCY</p>
+        <div class="ui styled fluid accordion">
+          <div class="title">Question 1:&ensp;How will my Level increase in my Bastion Profile?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>Then Level in your Bastion Profile increases based on your Experience Points (XP). When your XP is increased to a certain amount, you are leveled up, dude! And you even get some Bastion Currencies as a Winning Bonus!</p>
+              <img class="faqimg" src="/assets/images/leveledup.jpg" style="max-width:915px">
+            </div>
+          </div>
+          <div class="title">Question 2:&ensp;What is Bastion Currency?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>Bastion Currency is the Virtual Currency issued by the generous Bastion BOT.</p>
+            </div>
+          </div>
+          <div class="title">Question 3:&ensp;How do I get Bastion Currency?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>OMG! Money! How do I get that? Don't worry, you will get Bastion Currencies from a lot of stuffs, like when you reach a new level, win a bet in a gambling game of Bastion. Or if someone gives you.<br>You can also get Bastion Currencies when you report a valid bug with the BOT or give a suggestion for the BOT that is accepted.</p>
+            </div>
+          </div>
+          <div class="title">Question 4:&ensp;What can I do with Bastion Currencies?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>Currently you can give/take Bastion Currencies from other users, and you can gamble with Bastion Currencies. In future, hopefully, you can do a lot more with these. It's gonna be a lot of fun.</p>
+            </div>
+          </div>
+        </div>
+        <br><p id="commands">COMMANDS</p>
+        <div class="ui styled fluid accordion">
+          <div class="title">Question 1:&ensp;How do get a list of all commands?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>To get a complete list of commands type <code>bas?commands</code> or go <a href="/commands/">here</a>.</p>
+              <div class="ui tiny info message">Replace <code>bas?</code> with the prefix of your BOT.</div>
+            </div>
+          </div>
+          <div class="title">Question 2:&ensp;How do I use a command?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>You can get help on commands and see thier usage/examples by using <code>bas?h command_name</code></p>
+              <div class="ui tiny info message">Replace <code>bas?</code> with the prefix of your BOT.</div>
+            </div>
+          </div>
+        </div>
+        <br><p id="music">MUSIC</p>
+        <div class="ui styled fluid accordion">
+          <div class="title">Question 1:&ensp;Music commands aren't working in Public BOT?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>Music is disabled on public Bastion BOT due to high hosting costs. In the future it will be available for donators.</p>
+            </div>
+          </div>
+          <div class="title">Question 2:&ensp;Music is (still) not working/laggy?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>Maybe your computer/server, where you are hosting the BOT, has connections/bandwidth issues. Or latency from your computer/server to Discord is high. Try changing your <a href="https://support.discordapp.com/hc/en-us/articles/216661717-How-do-I-change-my-Voice-Server-Region-" target="_blank">Discord Voice Server Region</a> to a location near your computer/server.</p>
+            </div>
+          </div>
+        </div>
+        <br><p>You have a issue/question and it's not listed here? Sorry dude, just head over to the <a href="https://discord.gg/fzx8fkt" target="_blank">#help</a> channel in <a href="https://discord.gg/fzx8fkt" target="_blank">Bastion BOT Official Discord Server</a>, and ask for help.</p>
+      </div>
+      <div class="footer">
+        <div class="ui divider"></div>
+        <p>&copy; 2017 Sankarsan Kampa<br>All Rights Reserved</p>
+      </div>
+    </div>
+    </div>
+    
+    <script src="/assets/js/jquery-3.1.1.min.js"></script>
+    <script src="/assets/js/main.min.js"></script>
+    <script>
+      $('#menu-icon').click(function() {
+          $('.ui.sidebar').sidebar('setting', {
+            returnScroll: true,
+            scrollLock: true,
+            defaultTransition: {
+              computer: {
+                left   : 'push'
+              },
+              mobile: {
+                left   : 'push'
+              }
+            }
+          })
+          $('.ui.sidebar').sidebar('toggle');
+      });
+      $('.item.close').click(function() {
+        $('.ui.sidebar').sidebar('toggle');
+      });
+      $('.popup')
+        .popup({
+          delay: {
+            show: 500,
+            hide: 0
+          }
+        })
+      ;
+      $('.ui.accordion').accordion('refresh');
+    </script>
+  </body>
+</html>
