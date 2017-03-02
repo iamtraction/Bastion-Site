@@ -127,6 +127,15 @@
             </div>
           </div>
         </div>
+        <br><p id="music">INSTALLATION/UPDATE</p>
+        <div class="ui styled fluid accordion">
+          <div class="title">Question 1:&ensp;I get a <code>./BastionInstaller.sh: line X: Y Killed npm install</code> when Installing/Updating?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>This error happens when on low memory (e.g. 512MB) Computers/Servers. But don't worry, it's not a big deal. It can be fixed easily by following the steps given <a href="https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-12-04?comment=551" title="Add SWAP on Linux" target="_blank">here</a>.</p>
+            </div>
+          </div>
+        </div>
         <br><p id="configuration">CONFIGURATION</p>
         <div class="ui styled fluid accordion">
           <div class="title">Question 1:&ensp;How do I change the prefix, default status or default game of the BOT?</div>
@@ -223,6 +232,18 @@
             <div class="transition hidden">
               <p>You can get help on commands and see thier usage/examples by using <code>bas?h command_name</code></p>
               <div class="ui tiny info message">Replace <code>bas?</code> with the prefix of your BOT.</div>
+            </div>
+          </div>
+          <div class="title">Question 2:&ensp;What are the variables I can use in greeting message, farewell message, etc.?</div>
+          <div class="content">
+            <div class="transition hidden">
+              <p>You can use the following variables:</p>
+              <div class="ui list">
+                <div class="item"><code>$user</code> - Mentions the user that triggered this event.</div>
+                <div class="item"><code>$username</code> - the username of the user that triggered this event.</div>
+                <div class="item"><code>$server</code> - The name of the server that this event was triggered on.</div>
+                <div class="item"><code>$prefix</code> - The prefix that the BOT uses.</div>
+              </div>
             </div>
           </div>
         </div>
