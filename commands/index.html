@@ -1027,7 +1027,122 @@
         </table>
         
         <table class="ui very compact small selectable sortable celled structured table">
-          <caption>QUERIES</caption>
+          <caption>FUN</caption>
+          <thead>
+            <tr>
+              <th rowspan="2">Command</th>
+              <th rowspan="2">Alias</th>
+              <th rowspan="2">Description</th>
+              <th colspan="2">Permissions</th>
+              <th rowspan="2">Usage</th>
+            </tr>
+            <tr>
+              <th>Bot</th>
+              <th>User</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>*catfact</code></td>
+              <td><code>*cfact</code></td>
+              <td>Shows a random catfact.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*catFact</code></td>
+            </tr>
+            <tr>
+              <td><code>*crimecoefficient</code></td>
+              <td><code>*ccof</code><br><code>*ccoef</code></td>
+              <td>Finds the crime coefficient of a mentioned user. If no user is mentioned, it finds the crime coefficient of yours.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*crimecoefficient</code><br><code>*crimecoefficient @user#0001</code></td>
+            </tr>
+            <tr>
+              <td><code>*echo</code></td>
+              <td><code>*say</code></td>
+              <td>Sends the same message that you send as an argument. Just like an echo!</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*echo Hello, World!</code></td>
+            </tr>
+            <tr>
+              <td><code>*edgelord</code></td>
+              <td><code>*edgy</code></td>
+              <td>Shows an awesome message from an edgelord!</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*edgeLord</code></td>
+            </tr>
+            <tr>
+              <td><code>*fliptext</code></td>
+              <td><code>-</code></td>
+              <td>Flips a given text.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*flipText This is Upside Down!</code></td>
+            </tr>
+            <tr>
+              <td><code>*fortune</code></td>
+              <td><code>*cookie</code></td>
+              <td>Shows you a fortune from fortune cookie.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*fortune</code></td>
+            </tr>
+            <tr>
+              <td><code>*leet</code></td>
+              <td><code>-</code></td>
+              <td>Changes a given text to leet text.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*leet Hello, Everyone!</code></td>
+            </tr>
+            <tr>
+              <td><code>*piratespeak</code></td>
+              <td><code>*pirate</code></td>
+              <td>Convert's the given text to pirate speak.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*pirateSpeak You can always trust the untrustworthy because you can always trust that they will be untrustworthy. Its the trustworthy you can’t trust.</code></td>
+            </tr>
+            <tr>
+              <td><code>*quotes</code></td>
+              <td><code>*q</code></td>
+              <td>Shows a quote to get you inspired. Search a quote by it's index no. or by the author. If none is provided, shows a random quote.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*quotes</code><br><code>*quotes 189</code><br><code>*quotes Albert Einstein</code></td>
+            </tr>
+            <tr>
+              <td><code>*reverse</code></td>
+              <td><code>*rev</code></td>
+              <td>Reverse a given string.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*reverse !looc si sihT</code></td>
+            </tr>
+            <tr>
+              <td><code>*xkcd</code></td>
+              <td><code>-</code></td>
+              <td>Shows a <b>xkcd</b> comic. No arguments will shows a random comic. If a comic number is given, it will show that specific comic &amp; 'latest' will show the latest comic.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*xkcd</code><br><code>*xkcd latest</code><br><code>*xkcd 834</code></td>
+            </tr>
+            <tr>
+              <td><code>*zaloglize</code></td>
+              <td><code>*zalgo</code></td>
+              <td>Zaloglize a given text.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*zaloglize It looks clumsy, but it's cool!</code></td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <table class="ui very compact small selectable sortable celled structured table">
+          <caption>INFO</caption>
           <thead>
             <tr>
               <th rowspan="2">Command</th>
@@ -1049,30 +1164,6 @@
               <td>-</td>
               <td>-</td>
               <td><code>*avatar @user#001</code><br><code>*avatar</code></td>
-            </tr>
-            <tr>
-              <td><code>*calculate</code></td>
-              <td><code>*calc</code></td>
-              <td>Evaluates a mathematical expression.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*calculate 9 * 10 - 11</code></td>
-            </tr>
-            <tr>
-              <td><code>*capture</code></td>
-              <td><code>-</code></td>
-              <td>Captures and sends a screenshot of a specified webpage.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*capture bastion.js.org</code></td>
-            </tr>
-            <tr>
-              <td><code>*catfact</code></td>
-              <td><code>*cfact</code></td>
-              <td>Shows a random catfact.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*catFact</code></td>
             </tr>
             <tr>
               <td><code>*channelid</code></td>
@@ -1099,38 +1190,6 @@
               <td><code>*channelTopic #channel-name</code><br><code>*channelTopic</code></td>
             </tr>
             <tr>
-              <td><code>*choose</code></td>
-              <td><code>*decide</code></td>
-              <td>Ask the bot to choose a option from any number of options, separated by a <code>/</code>.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*choose Chocolate/Ice Cream/Cake</code></td>
-            </tr>
-            <tr>
-              <td><code>*color</code></td>
-              <td><code>*colour</code></td>
-              <td>Convert <code>HEX</code> Color to <code>RGB</code>, <code>CMYK</code>, <code>HSL</code>, <code>HSV</code>, <code>HWB</code>, <code>LAB</code>, <code>ANSI16</code>, <code>ANSI256</code>, <code>XYZ</code>, <code>HCG</code>, <code>Apple</code>, <code>Gray</code> and CSS Keyword (Rounds to closest color).</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*color #dd0000</code></td>
-            </tr>
-            <tr>
-              <td><code>*crimecoefficient</code></td>
-              <td><code>*ccof</code><br><code>*ccoef</code></td>
-              <td>Finds the crime coefficient of a mentioned user. If no user is mentioned, it finds the crime coefficient of yours.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*crimecoefficient</code><br><code>*crimecoefficient @user#0001</code></td>
-            </tr>
-            <tr>
-              <td><code>*define</code></td>
-              <td><code>*meaning</code></td>
-              <td>Searches the definition of a word from English, French or German dictionary (specified in the message; if no language is specified, defaults to English).</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*define Colonel</code><br><code>*define de Soldat</code><br><code>*define en Warrior</code><br><code>*define fr Guerre</code></td>
-            </tr>
-            <tr>
               <td><code>*discrim</code></td>
               <td><code>-</code></td>
               <td>Searches the server for users with the specified discriminator.</td>
@@ -1139,140 +1198,12 @@
               <td><code>*discrim 8383</code></td>
             </tr>
             <tr>
-              <td><code>*echo</code></td>
-              <td><code>*say</code></td>
-              <td>Sends the same message that you send as an argument. Just like an echo!</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*echo Hello, World!</code></td>
-            </tr>
-            <tr>
-              <td><code>*edgelord</code></td>
-              <td><code>*edgy</code></td>
-              <td>Shows an awesome message from an edgelord!</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*edgeLord</code></td>
-            </tr>
-            <tr>
               <td><code>*emojiinfo</code></td>
               <td><code>*einfo</code></td>
               <td>Shows information about the mentioned custom emoji.</td>
               <td>-</td>
               <td>-</td>
               <td><code>*emojiInfo :bastion:</code></td>
-            </tr>
-            <tr>
-              <td><code>*endpoll</code></td>
-              <td><code>-</code></td>
-              <td>Ends an ongoing poll and shows the result.</td>
-              <td>-</td>
-              <td>Poll Author or Server owner</td>
-              <td><code>*endpoll</code></td>
-            </tr>
-            <tr>
-              <td><code>*fliptext</code></td>
-              <td><code>-</code></td>
-              <td>Flips a given text.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*flipText This is Upside Down!</code></td>
-            </tr>
-            <tr>
-              <td><code>*forecast</code></td>
-              <td><code>*wefc</code></td>
-              <td>Shows weather forecast for 5 days for a specified location by name or ZIP Code.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*forecast London, UK</code><br><code>*forecast 94109</code></td>
-            </tr>
-            <tr>
-              <td><code>*fortune</code></td>
-              <td><code>*cookie</code></td>
-              <td>Shows you a fortune from fortune cookie.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*fortune</code></td>
-            </tr>
-            <tr>
-              <td><code>*imdb</code></td>
-              <td><code>-</code></td>
-              <td>Shows details of a movie or a TV series.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*imdb Snowden</code><br><code>*imdb The Blacklist</code></td>
-            </tr>
-            <tr>
-              <td><code>*leet</code></td>
-              <td><code>-</code></td>
-              <td>Changes a given text to leet text.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*leet Hello, Everyone!</code></td>
-            </tr>
-            <tr>
-              <td><code>*lmgtfy</code></td>
-              <td><code>-</code></td>
-              <td>A tool to teach other people how to use Google's internet search.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*lmgtfy How to shutdown a computer?</code></td>
-            </tr>
-            <tr>
-              <td><code>*morsecode</code></td>
-              <td><code>*morse</code></td>
-              <td>Encodes a given text into Morse Code.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*morseCode Shh! This is a secret.</code></td>
-            </tr>
-            <tr>
-              <td><code>*overwatch</code></td>
-              <td><code>*ow</code></td>
-              <td>Shows Overwatch player stats specified by his Region and BattleTag.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*overwatch GH0S7#11143</code></td>
-            </tr>
-            <tr>
-              <td><code>*piratespeak</code></td>
-              <td><code>*pirate</code></td>
-              <td>Convert's the given text to pirate speak.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*pirateSpeak You can always trust the untrustworthy because you can always trust that they will be untrustworthy. Its the trustworthy you can’t trust.</code></td>
-            </tr>
-            <tr>
-              <td><code>*poll</code></td>
-              <td><code>-</code></td>
-              <td>Starts a poll which requires users to vote using the <code>*vote</code> command. Separate question &amp; each answers with <code>;</code></td>
-              <td>Manage Messages</td>
-              <td>-</td>
-              <td><code>*poll Which is the game of the week?;Call of Duty©: Infinity Warfare;Tom Clancy's Ghost Recon© Wildlands;Watch Dogs 2</code></td>
-            </tr>
-            <tr>
-              <td><code>*quotes</code></td>
-              <td><code>*q</code></td>
-              <td>Shows a quote to get you inspired. Search a quote by it's index no. or by the author. If none is provided, shows a random quote.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*quotes</code><br><code>*quotes 189</code><br><code>*quotes Albert Einstein</code></td>
-            </tr>
-            <tr>
-              <td><code>*rainbow6</code></td>
-              <td><code>*r6</code></td>
-              <td>Shows Ranbow 6 player stats specified by his platform and username.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*rainbow6 uplay SaffronPants</code></td>
-            </tr>
-            <tr>
-              <td><code>*reverse</code></td>
-              <td><code>*rev</code></td>
-              <td>Reverse a given string.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*reverse !looc si sihT</code></td>
             </tr>
             <tr>
               <td><code>*roleinfo</code></td>
@@ -1307,6 +1238,145 @@
               <td><code>*serverInfo</code></td>
             </tr>
             <tr>
+              <td><code>*userid</code></td>
+              <td><code>*uid</code></td>
+              <td>Shows the mentioned user's ID. If no user is mentioned, shows your ID.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*userID @user#0001</code><br><code>*userID</code></td>
+            </tr>
+            <tr>
+              <td><code>*userinfo</code></td>
+              <td><code>*uinfo</code></td>
+              <td>Shows information about the mentioned user. If no user is mentioned, shows information about you.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*userInfo @user#0001</code><br><code>*userInfo</code></td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <table class="ui very compact small selectable sortable celled structured table">
+          <caption>QUERIES</caption>
+          <thead>
+            <tr>
+              <th rowspan="2">Command</th>
+              <th rowspan="2">Alias</th>
+              <th rowspan="2">Description</th>
+              <th colspan="2">Permissions</th>
+              <th rowspan="2">Usage</th>
+            </tr>
+            <tr>
+              <th>Bot</th>
+              <th>User</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>*calculate</code></td>
+              <td><code>*calc</code></td>
+              <td>Evaluates a mathematical expression.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*calculate 9 * 10 - 11</code></td>
+            </tr>
+            <tr>
+              <td><code>*capture</code></td>
+              <td><code>-</code></td>
+              <td>Captures and sends a screenshot of a specified webpage.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*capture bastion.js.org</code></td>
+            </tr>
+            <tr>
+              <td><code>*choose</code></td>
+              <td><code>*decide</code></td>
+              <td>Ask the bot to choose a option from any number of options, separated by a <code>/</code>.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*choose Chocolate/Ice Cream/Cake</code></td>
+            </tr>
+            <tr>
+              <td><code>*color</code></td>
+              <td><code>*colour</code></td>
+              <td>Convert <code>HEX</code> Color to <code>RGB</code>, <code>CMYK</code>, <code>HSL</code>, <code>HSV</code>, <code>HWB</code>, <code>LAB</code>, <code>ANSI16</code>, <code>ANSI256</code>, <code>XYZ</code>, <code>HCG</code>, <code>Apple</code>, <code>Gray</code> and CSS Keyword (Rounds to closest color).</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*color #dd0000</code></td>
+            </tr>
+            <tr>
+              <td><code>*define</code></td>
+              <td><code>*meaning</code></td>
+              <td>Searches the definition of a word from English, French or German dictionary (specified in the message; if no language is specified, defaults to English).</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*define Colonel</code><br><code>*define de Soldat</code><br><code>*define en Warrior</code><br><code>*define fr Guerre</code></td>
+            </tr>
+            <tr>
+              <td><code>*endpoll</code></td>
+              <td><code>-</code></td>
+              <td>Ends an ongoing poll and shows the result.</td>
+              <td>-</td>
+              <td>Poll Author or Server owner</td>
+              <td><code>*endpoll</code></td>
+            </tr>
+            <tr>
+              <td><code>*forecast</code></td>
+              <td><code>*wefc</code></td>
+              <td>Shows weather forecast for 5 days for a specified location by name or ZIP Code.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*forecast London, UK</code><br><code>*forecast 94109</code></td>
+            </tr>
+            <tr>
+              <td><code>*imdb</code></td>
+              <td><code>-</code></td>
+              <td>Shows details of a movie or a TV series.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*imdb Snowden</code><br><code>*imdb The Blacklist</code></td>
+            </tr>
+            <tr>
+              <td><code>*lmgtfy</code></td>
+              <td><code>-</code></td>
+              <td>A tool to teach other people how to use Google's internet search.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*lmgtfy How to shutdown a computer?</code></td>
+            </tr>
+            <tr>
+              <td><code>*morsecode</code></td>
+              <td><code>*morse</code></td>
+              <td>Encodes a given text into Morse Code.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*morseCode Shh! This is a secret.</code></td>
+            </tr>
+            <tr>
+              <td><code>*overwatch</code></td>
+              <td><code>*ow</code></td>
+              <td>Shows Overwatch player stats specified by his Region and BattleTag.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*overwatch GH0S7#11143</code></td>
+            </tr>
+            <tr>
+              <td><code>*poll</code></td>
+              <td><code>-</code></td>
+              <td>Starts a poll which requires users to vote using the <code>*vote</code> command. Separate question &amp; each answers with <code>;</code></td>
+              <td>Manage Messages</td>
+              <td>-</td>
+              <td><code>*poll Which is the game of the week?;Call of Duty©: Infinity Warfare;Tom Clancy's Ghost Recon© Wildlands;Watch Dogs 2</code></td>
+            </tr>
+            <tr>
+              <td><code>*rainbow6</code></td>
+              <td><code>*r6</code></td>
+              <td>Shows Ranbow 6 player stats specified by his platform and username.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*rainbow6 uplay SaffronPants</code></td>
+            </tr>
+            <tr>
               <td><code>*tapcode</code></td>
               <td><code>*tap</code></td>
               <td>Encodes a given text into Tap Code.</td>
@@ -1331,22 +1401,6 @@
               <td><code>*urbanDictionary pineapple</code></td>
             </tr>
             <tr>
-              <td><code>*userid</code></td>
-              <td><code>*uid</code></td>
-              <td>Shows the mentioned user's ID. If no user is mentioned, shows your ID.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*userID @user#0001</code><br><code>*userID</code></td>
-            </tr>
-            <tr>
-              <td><code>*userinfo</code></td>
-              <td><code>*uinfo</code></td>
-              <td>Shows information about the mentioned user. If no user is mentioned, shows information about you.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*userInfo @user#0001</code><br><code>*userInfo</code></td>
-            </tr>
-            <tr>
               <td><code>*weather</code></td>
               <td><code>*we</code></td>
               <td>Shows weather information for a specified location by name or ZIP Code.</td>
@@ -1361,22 +1415,6 @@
               <td>-</td>
               <td>-</td>
               <td><code>*wikipedia Steve Jobs</code></td>
-            </tr>
-            <tr>
-              <td><code>*xkcd</code></td>
-              <td><code>-</code></td>
-              <td>Shows a <b>xkcd</b> comic. No arguments will shows a random comic. If a comic number is given, it will show that specific comic &amp; 'latest' will show the latest comic.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*xkcd</code><br><code>*xkcd latest</code><br><code>*xkcd 834</code></td>
-            </tr>
-            <tr>
-              <td><code>*zilgolize</code></td>
-              <td><code>*zilgo</code></td>
-              <td>Zilgolizes a given text.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*zaloglize It looks clumsy, but it's cool!</code></td>
             </tr>
           </tbody>
         </table>
