@@ -925,7 +925,7 @@
         </table>
         
         <table class="ui very compact small selectable sortable celled structured table">
-          <caption>MONEY/GAMBLING</caption>
+          <caption>MONEY</caption>
           <thead>
             <tr>
               <th rowspan="2">Command</th>
@@ -940,22 +940,6 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td><code>*betflip</code></td>
-              <td><code>*bf</code></td>
-              <td>Bets a specified amount of Bastion currency on prediction of the outcome of flipping a coin. If you win, you win more Bastion Currencies. If you lose, you lose the amount of currency you've bet.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*betflip 100 heads</code></td>
-            </tr>
-            <tr>
-              <td><code>*betroll</code></td>
-              <td><code>*br</code></td>
-              <td>Bets a specified amount of Bastion currency on prediction of the outcome of rolling a dice. If you win, you win more Bastion Currencies. If you lose, you lose the amount of currency you've bet.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*betroll 100 three</code></td>
-            </tr>
             <tr>
               <td><code>*give</code></td>
               <td><code>-</code></td>
@@ -1000,7 +984,7 @@
         </table>
         
         <table class="ui very compact small selectable sortable celled structured table">
-          <caption>QUERIES</caption>
+          <caption>GAMBLING</caption>
           <thead>
             <tr>
               <th rowspan="2">Command</th>
@@ -1016,13 +1000,48 @@
           </thead>
           <tbody>
             <tr>
-              <td><code>*ask</code></td>
-              <td><code>-</code></td>
-              <td>Ask a polar (yes/no) question to the users and get votes. Shows you the result after a minute of getting votes.</td>
+              <td><code>*betflip</code></td>
+              <td><code>*bf</code></td>
+              <td>Bets a specified amount of Bastion currency on prediction of the outcome of flipping a coin. If you win, you win more Bastion Currencies. If you lose, you lose the amount of currency you've bet.</td>
               <td>-</td>
               <td>-</td>
-              <td><code>*ask Anyone want to play Call of Duty Infinity Warfare now?</code></td>
+              <td><code>*betflip 100 heads</code></td>
             </tr>
+            <tr>
+              <td><code>*betroll</code></td>
+              <td><code>*br</code></td>
+              <td>Bets a specified amount of Bastion currency on prediction of the outcome of rolling a dice. If you win, you win more Bastion Currencies. If you lose, you lose the amount of currency you've bet.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*betroll 100 three</code></td>
+            </tr>
+            <tr>
+              <td><code>*sweep</code></td>
+              <td><code>*sinfo</code></td>
+              <td>Shows a random user from the server.</td>
+              <td>-</td>
+              <td>-</td>
+              <td><code>*sweep</code></td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <table class="ui very compact small selectable sortable celled structured table">
+          <caption>QUERIES</caption>
+          <thead>
+            <tr>
+              <th rowspan="2">Command</th>
+              <th rowspan="2">Alias</th>
+              <th rowspan="2">Description</th>
+              <th colspan="2">Permissions</th>
+              <th rowspan="2">Usage</th>
+            </tr>
+            <tr>
+              <th>Bot</th>
+              <th>User</th>
+            </tr>
+          </thead>
+          <tbody>
             <tr>
               <td><code>*avatar</code></td>
               <td><code>*av</code></td>
@@ -1286,14 +1305,6 @@
               <td>-</td>
               <td>-</td>
               <td><code>*serverInfo</code></td>
-            </tr>
-            <tr>
-              <td><code>*sweep</code></td>
-              <td><code>*sinfo</code></td>
-              <td>Shows a random user from the server.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*sweep</code></td>
             </tr>
             <tr>
               <td><code>*tapcode</code></td>
