@@ -94,1617 +94,1026 @@
     <div id="mainContainer" class="container">
       <div class="ui container">
         <h2>Commands List</h2>
-        <p>Assuming your BOT has <code>*</code> as the command prefix.</p>
-        <table class="ui very compact small selectable sortable celled structured table">
+        <p>Assuming your BOT has <code>#!</code> as the command prefix.</p>
+        <table class="ui very compact small selectable sortable celled structured yellow table">
           <caption>HELP</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*changelog</code></td>
-              <td><code>*clog</code><br><code>*changes</code></td>
+              <td><code>#!changelog</code></td>
+              <td><code>#!clog</code><br><code>#!changes</code></td>
               <td>Display changes done in the current version of Bastion Bot.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*changeLog</code></td>
             </tr>
             <tr>
-              <td><code>*commands</code></td>
-              <td><code>*cmds</code></td>
+              <td><code>#!commands</code></td>
+              <td><code>#!cmds</code></td>
               <td>Shows the complete list of commands with their aliases.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*commands</code></td>
             </tr>
             <tr>
-              <td><code>*commandSearch</code></td>
-              <td><code>*cmdSearch</code></td>
+              <td><code>#!commandSearch</code></td>
+              <td><code>#!cmdSearch</code></td>
               <td>Search for a Bastion's command with a given text.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*commandSearch user</code></td>
             </tr>
             <tr>
-              <td><code>*donate</code></td>
+              <td><code>#!donate</code></td>
               <td><code>-</code></td>
               <td>Instructions on how to financially help the Bastion BOT project.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*donate</code></td>
             </tr>
             <tr>
-              <td><code>*guide</code></td>
+              <td><code>#!guide</code></td>
               <td><code>-</code></td>
               <td>Shows you the guide on how to setup and install Private Bastion BOT. And links to the official support server.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*guide</code></td>
             </tr>
             <tr>
-              <td><code>*help</code></td>
-              <td><code>*h</code></td>
+              <td><code>#!help</code></td>
+              <td><code>#!h</code></td>
               <td>Shows all the available commands. If a command name is specified as a argument, shows help about that command.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*help</code><br><code>*help magic8ball</code></td>
             </tr>
             <tr>
-              <td><code>*ping</code></td>
+              <td><code>#!ping</code></td>
               <td><code>-</code></td>
               <td>Pings the bot and shows you the time the bot responded in.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*ping</code></td>
             </tr>
             <tr>
-              <td><code>*support</code></td>
-              <td><code>*ss</code></td>
+              <td><code>#!support</code></td>
+              <td><code>#!ss</code></td>
               <td>Sends the invite link to Bastion BOT Support Server.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*support</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured black table">
           <caption>BOT OWNER ONLY</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*addtrigger</code></td>
-              <td><code>*addtrip</code></td>
+              <td><code>#!addtrigger</code></td>
+              <td><code>#!addtrip</code></td>
               <td>Adds a trigger with a response message. Separate trigger &amp; message with <code>&lt;&lt;</code></td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*addTrigger Hi, there? &lt;&lt; Hello $user! :wave:</code></td>
             </tr>
             <tr>
-              <td><code>*announce</code></td>
-              <td><code>*notify</code></td>
+              <td><code>#!announce</code></td>
+              <td><code>#!notify</code></td>
               <td>Sends a message to all servers' default channel, the bot is connected to.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*announce Just a random announcement.</code></td>
             </tr>
             <tr>
-              <td><code>*bastionlog</code></td>
-              <td><code>*botlog</code></td>
+              <td><code>#!bastionlog</code></td>
+              <td><code>#!botlog</code></td>
               <td>Toggle logging of various events of the bot.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*bastionLog</code></td>
             </tr>
             <tr>
-              <td><code>*deletealltriggers</code></td>
-              <td><code>*delalltriggers</code><br><code>*deletealltrips</code><br><code>*delalltrips</code></td>
+              <td><code>#!deletealltriggers</code></td>
+              <td><code>#!delalltriggers</code><br><code>#!deletealltrips</code><br><code>#!delalltrips</code></td>
               <td>Deletes all the triggers and responses.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*deleteAllTriggers</code></td>
             </tr>
             <tr>
-              <td><code>*deletetodo</code></td>
-              <td><code>*deltodo</code></td>
+              <td><code>#!deletetodo</code></td>
+              <td><code>#!deltodo</code></td>
               <td>Deletes an item from your todo list by it's index number.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*deleteTodo 2</code></td>
             </tr>
             <tr>
-              <td><code>*deletetrigger</code></td>
-              <td><code>*deltrigger</code><br><code>*deletetrip</code><br><code>*deltrip</code></td>
+              <td><code>#!deletetrigger</code></td>
+              <td><code>#!deltrigger</code><br><code>#!deletetrip</code><br><code>#!deltrip</code></td>
               <td>Deletes a trigger and response specified by it's trigger.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*deleteTrigger 3</code></td>
             </tr>
             <tr>
-              <td><code>*disableallcommands</code></td>
-              <td><code>*disableallcmds</code></td>
+              <td><code>#!disableallcommands</code></td>
+              <td><code>#!disableallcmds</code></td>
               <td>Disables all command temporarily until Bastion is restarted or it is enabled again.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*disableAllCommand</code></td>
             </tr>
             <tr>
-              <td><code>*disablecommand</code></td>
-              <td><code>*disablecmd</code></td>
+              <td><code>#!disablecommand</code></td>
+              <td><code>#!disablecmd</code></td>
               <td>Disables a command temporarily until Bastion is restarted or it is enabled again.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*disableCommand echo</code></td>
             </tr>
             <tr>
-              <td><code>*enableallcommands</code></td>
-              <td><code>*enableallcmds</code></td>
+              <td><code>#!enableallcommands</code></td>
+              <td><code>#!enableallcmds</code></td>
               <td>Enables all temporarily disabled commands.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*enableAllCommands</code></td>
             </tr>
             <tr>
-              <td><code>*enablecommand</code></td>
-              <td><code>*enablecmd</code></td>
+              <td><code>#!enablecommand</code></td>
+              <td><code>#!enablecmd</code></td>
               <td>Enables a temporarily disabled command.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*enableCommand echo</code></td>
             </tr>
             <tr>
-              <td><code>*eval</code></td>
+              <td><code>#!eval</code></td>
               <td><code>-</code></td>
               <td>Evaluates any JavaScript statement.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*eval message.guild.members.size</code></td>
             </tr>
             <tr>
-              <td><code>*leave</code></td>
+              <td><code>#!leave</code></td>
               <td><code>-</code></td>
               <td>Tells the bot to leave a specified server by ID.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*leave 441122339988775566</code></td>
             </tr>
             <tr>
-              <td><code>*listtodo</code></td>
-              <td><code>*todolist</code></td>
+              <td><code>#!listtodo</code></td>
+              <td><code>#!todolist</code></td>
               <td>Shows your todo list if you have one. It takes page number as an optional argument.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*listTodo</code><br><code>*listTodo 2</code></td>
             </tr>
             <tr>
-              <td><code>*listtriggers</code></td>
-              <td><code>*listtrips</code></td>
+              <td><code>#!listtriggers</code></td>
+              <td><code>#!listtrips</code></td>
               <td>Lists all the triggers you have added. It takes page number as an optional argument.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*listTrigger</code><br><code>*listTrigger 2</code></td>
             </tr>
             <tr>
-              <td><code>*messagechannel</code></td>
-              <td><code>*msgc</code></td>
+              <td><code>#!messagechannel</code></td>
+              <td><code>#!msgc</code></td>
               <td>Sends a message to a specified channel (by ID) of a server the bot is connected tos.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*messageChannel CHANNEL_ID Hello everyone!</code></td>
             </tr>
             <tr>
-              <td><code>*messageuser</code></td>
-              <td><code>*msgu</code></td>
+              <td><code>#!messageuser</code></td>
+              <td><code>#!msgu</code></td>
               <td>Sends a private message to a specified user (by ID) of a server the bot is connected to.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*messageUser USER_ID Hello, how are you?</code></td>
             </tr>
             <tr>
-              <td><code>*searchserver</code></td>
-              <td><code>*server</code></td>
+              <td><code>#!searchserver</code></td>
+              <td><code>#!server</code></td>
               <td>Searches for servers, by specified text, the bot is connected to.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*searchServer Bastion</code></td>
             </tr>
             <tr>
-              <td><code>*setavatar</code></td>
-              <td><code>*setav</code></td>
+              <td><code>#!setavatar</code></td>
+              <td><code>#!setav</code></td>
               <td>Sets the avatar of the Bot.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*setavatar https://example.com/avatar.jpeg</code></td>
             </tr>
             <tr>
-              <td><code>*setgame</code></td>
-              <td><code>*setg</code></td>
+              <td><code>#!setgame</code></td>
+              <td><code>#!setg</code></td>
               <td>Sets the bot's game to the given text. If no text is given, sets the bot's game to the default game (given in <code>config.json</code>).</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*setGame with minions!</code><br><code>*setGame</code></td>
             </tr>
             <tr>
-              <td><code>*setnick</code></td>
-              <td><code>*setn</code></td>
+              <td><code>#!setnick</code></td>
+              <td><code>#!setn</code></td>
               <td>Sets the nick of the bot in the current guild. If no nick is given, it resets the nickname.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*setNick NewNick</code><br><code>*setNick</code></td>
             </tr>
             <tr>
-              <td><code>*setstatus</code></td>
+              <td><code>#!setstatus</code></td>
               <td><code>-</code></td>
               <td>Sets the bot's status to the given status (online/idle/dnd/invisible). If no status is given as argument, it will set the bot's status to default (given in <code>config.json</code>).</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*setStatus invisible</code><br><code>*setStatus</code></td>
             </tr>
             <tr>
-              <td><code>*setstream</code></td>
+              <td><code>#!setstream</code></td>
               <td><code>-</code></td>
               <td>Set the bot to streaming mode with a given twitch link.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*setStream https://twitch.tv/TheGamerFDN</code></td>
             </tr>
             <tr>
-              <td><code>*setusername</code></td>
-              <td><code>*setun</code></td>
+              <td><code>#!setusername</code></td>
+              <td><code>#!setun</code></td>
               <td>Give a new username to the bot. (NOTE: It's Rate limited. You can only change it two times in an hour.)</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*setUsername NewUsername</code></td>
             </tr>
             <tr>
-              <td><code>*shutdown</code></td>
-              <td><code>*turnoff</code><br><code>*die</code></td>
+              <td><code>#!shutdown</code></td>
+              <td><code>#!turnoff</code><br><code>#!die</code></td>
               <td>Asks you for conformation to shut the bot down and terminates the process. Reply with <code>yes</code> or <code>no</code>.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*shutdown</code></td>
             </tr>
             <tr>
-              <td><code>*todo</code></td>
+              <td><code>#!todo</code></td>
               <td><code>-</code></td>
               <td>Adds a text to your todo list.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*todo Reconfigure my firewall</code></td>
             </tr>
             <tr>
-              <td><code>*updatedatabase</code></td>
-              <td><code>*updatedb</code></td>
+              <td><code>#!updatedatabase</code></td>
+              <td><code>#!updatedb</code></td>
               <td>Updates Bastion's Database to the current release.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*updateDatabase</code></td>
             </tr>
             <tr>
-              <td><code>*userblacklist</code></td>
-              <td><code>*ubl</code></td>
+              <td><code>#!userblacklist</code></td>
+              <td><code>#!ubl</code></td>
               <td>Adds/Removes user, by mention or user ID, to BOT blacklist, they can't use any of the bot's commands.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*userblacklist add @user#001 224433119988776655</code><br><code>*userblacklist rem 224433119988776655 @user#0001</code><br><code>*userblacklist + @user#001 224433119988776655</code><br><code>*userblacklist - 224433119988776655 @user#0001</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured red table">
           <caption>SERVER ADMINISTRATORS ONLY</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*addautoassignableroles</code></td>
-              <td><code>*aaar</code></td>
+              <td><code>#!addautoassignableroles</code></td>
+              <td><code>#!aaar</code></td>
               <td>Adds roles, specified by role ID, to auto assignable roles category, anyone who joins the server gets these roles automatically.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*addAutoAssignableRoles 443322110055998877 778899550011223344</code></td>
             </tr>
             <tr>
-              <td><code>*addselfassignableroles</code></td>
-              <td><code>*asar</code></td>
+              <td><code>#!addselfassignableroles</code></td>
+              <td><code>#!asar</code></td>
               <td>Adds roles, specified by role ID, to self assignable roles category, so that anyone could use `iam`/`iamnot` command to assign these roles to themselves.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*addSelfAssignableRoles 443322110055998877 778899550011223344</code></td>
             </tr>
             <tr>
-              <td><code>*chat</code></td>
+              <td><code>#!chat</code></td>
               <td><code>-</code></td>
               <td>Toggles chatting feature of the bot.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*chat</code></td>
             </tr>
             <tr>
-              <td><code>*farewell</code></td>
+              <td><code>#!farewell</code></td>
               <td><code>-</code></td>
               <td>Toggle farewell message for members who left the server.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*farewell</code></td>
             </tr>
             <tr>
-              <td><code>*farewellmessage</code></td>
-              <td><code>*fmsg</code></td>
+              <td><code>#!farewellmessage</code></td>
+              <td><code>#!fmsg</code></td>
               <td>Edit the farewell message that shows when a member leaves the server.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*farewellMessage Goodbye $username. Hope to see you soon!</code></td>
             </tr>
             <tr>
-              <td><code>*farewelltimeout</code></td>
-              <td><code>*ftout</code></td>
+              <td><code>#!farewelltimeout</code></td>
+              <td><code>#!ftout</code></td>
               <td>Sets the time (in seconds) after which farewell message will be automatically deleted. Supported values: 1 - 300. Any value except the supported values will turn off automatic deletion.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*farewellTimeout 120</code><br><code>*farewellTimeout</code></td>
             </tr>
             <tr>
-              <td><code>*filterinvite</code></td>
-              <td><code>*filterinv</code></td>
+              <td><code>#!filterinvite</code></td>
+              <td><code>#!filterinv</code></td>
               <td>Toggles automatic deleting of discord server invites posted in the server. Does not apply to the server Administrators.</td>
-              <td>Manage Messages</td>
-              <td>Administrator</td>
-              <td><code>*filterinvite</code></td>
             </tr>
             <tr>
-              <td><code>*filterlink</code></td>
+              <td><code>#!filterlink</code></td>
               <td><code>-</code></td>
               <td>Toggles automatic deleting of any links posted in the server. Does not apply to the server Administrators.</td>
-              <td>Manage Messages</td>
-              <td>Administrator</td>
-              <td><code>*filterlink</code></td>
             </tr>
             <tr>
-              <td><code>*greet</code></td>
+              <td><code>#!greet</code></td>
               <td><code>-</code></td>
               <td>Toggle greeting message for new members of the server.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*greet</code></td>
             </tr>
             <tr>
-              <td><code>*greetdm</code></td>
+              <td><code>#!greetdm</code></td>
               <td><code>-</code></td>
               <td>Toggle sending of greeting message as direct message for new members of the server.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*greetDM</code></td>
             </tr>
             <tr>
-              <td><code>*greetmessage</code></td>
-              <td><code>*gmsg</code></td>
+              <td><code>#!greetmessage</code></td>
+              <td><code>#!gmsg</code></td>
               <td>Edit the greeting message that shows when a new member is joined in the server.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*greetMessage Hello $user! Welcome to $server.</code></td>
             </tr>
             <tr>
-              <td><code>*greetdmmessage</code></td>
-              <td><code>*gdmmsg</code></td>
+              <td><code>#!greetdmmessage</code></td>
+              <td><code>#!gdmmsg</code></td>
               <td>Edit the greeting message that is sent as direct message when a new member is joined in the server.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*greetDMMessage Hello $user! Welcome to $server.</code></td>
             </tr>
             <tr>
-              <td><code>*greettimeout</code></td>
-              <td><code>*gtout</code></td>
+              <td><code>#!greettimeout</code></td>
+              <td><code>#!gtout</code></td>
               <td>Sets the time (in seconds) after which greeting message will be automatically deleted. Supported values: 1 - 300. Any value except the supported values will turn off automatic deletion.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*greetTimeout 120</code><br><code>*greetTimeout</code></td>
             </tr>
             <tr>
-              <td><code>*levelupmessage</code></td>
-              <td><code>*lvlupmsg</code></td>
+              <td><code>#!levelupmessage</code></td>
+              <td><code>#!lvlupmsg</code></td>
               <td>Toggles sending messages when someone levels up in this server.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*levelUpMessage</code></td>
             </tr>
             <tr>
-              <td><code>*listautoassignableroles</code></td>
-              <td><code>*laar</code></td>
+              <td><code>#!listautoassignableroles</code></td>
+              <td><code>#!laar</code></td>
               <td>Lists all auto assignable roles.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*listAutoAssignableRoles</code><br><code>*listAutoAssignableRoles 2</code></td>
             </tr>
             <tr>
-              <td><code>*listselfassignableroles</code></td>
-              <td><code>*lsar</code></td>
+              <td><code>#!listselfassignableroles</code></td>
+              <td><code>#!lsar</code></td>
               <td>Lists all self assignable roles.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*listSelfAssignableRoles</code><br><code>*listSelfAssignableRoles 2</code></td>
             </tr>
             <tr>
-              <td><code>*log</code></td>
+              <td><code>#!log</code></td>
               <td><code>-</code></td>
               <td>Toggle logging of various events in the server.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*log</code></td>
             </tr>
             <tr>
-              <td><code>*modlog</code></td>
+              <td><code>#!modlog</code></td>
               <td><code>-</code></td>
               <td>Toggle logging of various moderation events in the server.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*modLog</code></td>
             </tr>
             <tr>
-              <td><code>*removeautoassignableroles</code></td>
-              <td><code>*raar</code></td>
+              <td><code>#!removeautoassignableroles</code></td>
+              <td><code>#!raar</code></td>
               <td>Deletes a role from the auto assignable roles by it's index number.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*removeAutoAssignableRoles 3</code></td>
             </tr>
             <tr>
-              <td><code>*removeselfassignableroles</code></td>
-              <td><code>*rsar</code></td>
+              <td><code>#!removeselfassignableroles</code></td>
+              <td><code>#!rsar</code></td>
               <td>Deletes a role from the self assignable roles by it's index number.</td>
-              <td>-</td>
-              <td>Administrator</td>
-              <td><code>*removeSelfAssignableRoles 3</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured red table">
           <caption>ADMINISTRATION</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*createrole</code></td>
-              <td><code>*cr</code></td>
+              <td><code>#!createrole</code></td>
+              <td><code>#!cr</code></td>
               <td>Creates a new role with a given color (optional) and a given name (optional).</td>
-              <td>Manage Roles</td>
-              <td>Manage Roles</td>
-              <td><code>*createrole #dc143c Role Name</code><br><code>*createrole Role Name</code><br><code>*createrole #dc143c</code><br><code>*createrole</code></td>
             </tr>
             <tr>
-              <td><code>*createtextchannel</code></td>
-              <td><code>*ctc</code></td>
+              <td><code>#!createtextchannel</code></td>
+              <td><code>#!ctc</code></td>
               <td>Creates a new text channel with a given name.</td>
-              <td>Manage Channels</td>
-              <td>Manage Channels</td>
-              <td><code>*createTextChannel Channel Name</code></td>
             </tr>
             <tr>
-              <td><code>*createvoicechannel</code></td>
-              <td><code>*cvc</code></td>
+              <td><code>#!createvoicechannel</code></td>
+              <td><code>#!cvc</code></td>
               <td>Creates a new voice channel with a given name.</td>
-              <td>Manage Channels</td>
-              <td>Manage Channels</td>
-              <td><code>*createVoiceChannel Channel Name</code></td>
             </tr>
             <tr>
-              <td><code>*deleterole</code></td>
-              <td><code>*dr</code></td>
+              <td><code>#!deleterole</code></td>
+              <td><code>#!dr</code></td>
               <td>Deletes a role by a given name.</td>
-              <td>Manage Roles</td>
-              <td>Manage Roles</td>
-              <td><code>*deleteRole Role Name</code></td>
             </tr>
             <tr>
-              <td><code>*deletetextchannel</code></td>
-              <td><code>*dtc</code></td>
+              <td><code>#!deletetextchannel</code></td>
+              <td><code>#!dtc</code></td>
               <td>Deletes a mentioned text channel. If no channel is mentioned, deletes the current text channel.</td>
-              <td>Manage Channels</td>
-              <td>Manage Channels</td>
-              <td><code>*deleteTextChannel #channel-name</code><br><code>*deleteTextChannel</code></td>
             </tr>
             <tr>
-              <td><code>*deletevoicechannel</code></td>
-              <td><code>*dvc</code></td>
+              <td><code>#!deletevoicechannel</code></td>
+              <td><code>#!dvc</code></td>
               <td>Deletes a voice channel by given name.</td>
-              <td>Manage Channels</td>
-              <td>Manage Channels</td>
-              <td><code>*deleteVoiceChannel Voice Channel Name</code></td>
             </tr>
             <tr>
-              <td><code>*iam</code></td>
-              <td><code>*iwant</code><br><code>*ihave</code></td>
+              <td><code>#!iam</code></td>
+              <td><code>#!iwant</code><br><code>#!ihave</code></td>
               <td>Adds a specified self assignable role to the user.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*iAm Looking to play</code></td>
             </tr>
             <tr>
-              <td><code>*iamnot</code></td>
-              <td><code>*idontwant</code><br><code>*idonthave</code></td>
+              <td><code>#!iamnot</code></td>
+              <td><code>#!idontwant</code><br><code>#!idonthave</code></td>
               <td>Removes a specified self assignable role from the user.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*iAmNot Looking to play</code></td>
             </tr>
             <tr>
-              <td><code>*renamerole</code></td>
-              <td><code>*renr</code></td>
+              <td><code>#!renamerole</code></td>
+              <td><code>#!renr</code></td>
               <td>Renames a given role to a given new name.</td>
-              <td>Manage Roles</td>
-              <td>Manage Roles</td>
-              <td><code>*renameRole Old Role Name - New Role Name</code></td>
             </tr>
             <tr>
-              <td><code>*renametextchannel</code></td>
-              <td><code>*rtxtc</code></td>
+              <td><code>#!renametextchannel</code></td>
+              <td><code>#!rtxtc</code></td>
               <td>Renames the current text channel to a given new name.</td>
-              <td>Manage Channels</td>
-              <td>Manage Channels</td>
-              <td><code>*renameTextChannel New Channel Name</code></td>
             </tr>
             <tr>
-              <td><code>*rolecolor</code></td>
-              <td><code>*rc</code></td>
+              <td><code>#!rolecolor</code></td>
+              <td><code>#!rc</code></td>
               <td>Change the color of a given role.</td>
-              <td>Manage Roles</td>
-              <td>Manage Roles</td>
-              <td><code>*roleColor #00ff00 Role Name</code></td>
             </tr>
             <tr>
-              <td><code>*settopic</code></td>
-              <td><code>*st</code></td>
+              <td><code>#!settopic</code></td>
+              <td><code>#!st</code></td>
               <td>Sets the topic of the mentioned channel with a given name. If no channel is mentioned, sets the topic of the current channel with the given name. If no topic is given, or lenght of the topic is less than 2, channel topic is removed.</td>
-              <td>Manage Channels</td>
-              <td>Manage Channels</td>
-              <td><code>*setTopic #channel-name New Topic</code><br><code>*setTopic New Topic</code><br><code>*setTopic</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured orange table">
           <caption>MODERATION</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*addRole</code></td>
-              <td><code>*ar</code></td>
+              <td><code>#!addRole</code></td>
+              <td><code>#!ar</code></td>
               <td>Adds a mentioned user to the given role. If no user is mentioned, adds you to the given role.</td>
-              <td>Manage Roles</td>
-              <td>Manage Roles</td>
-              <td><code>*addRole @user#001 Role Name</code><br><code>*addRole Role Name</code></td>
             </tr>
             <tr>
-              <td><code>*ban</code></td>
-              <td><code>*b</code></td>
+              <td><code>#!ban</code></td>
+              <td><code>#!b</code></td>
               <td>Bans a mentioned user with an optional reason, and removes 7 days of his message history.</td>
-              <td>Ban Members</td>
-              <td>Ban Members</td>
-              <td><code>*ban @user#001 Reason for ban</code></td>
             </tr>
             <tr>
-              <td><code>*clear</code></td>
-              <td><code>*clr</code></td>
+              <td><code>#!clear</code></td>
+              <td><code>#!clr</code></td>
               <td>Delete a bulk of messages from a channel specified by an user and/or number. If no user is specified, delete everyone's messages. If no amount is specified, it defaults to 100 messages. Using <code>--bots</code> flag clears messages from bots in that channel. Using <code>--nonpinned</code> flag clears messages that aren't pinned.</td>
-              <td>Manage Messages</td>
-              <td>Manage Messages</td>
-              <td><code>*clear 50</code><br><code>*clear @user#0001 5</code><br><code>*clear --bots 10</code><br><code>*clear @user#0001 50 --nonpinned</code><br><code>*clear</code></td>
             </tr>
             <tr>
-              <td><code>*deafen</code></td>
-              <td><code>*deaf</code></td>
+              <td><code>#!deafen</code></td>
+              <td><code>#!deaf</code></td>
               <td>Deafens a mentioned user with an optional reason.</td>
-              <td>Deafen Members</td>
-              <td>Deafen Members</td>
-              <td><code>*deafen @user#0001 Reason for the deafening.</code></td>
             </tr>
             <tr>
-              <td><code>*kick</code></td>
-              <td><code>*k</code></td>
+              <td><code>#!kick</code></td>
+              <td><code>#!k</code></td>
               <td>Kicks a mentioned user with an optional reason.</td>
-              <td>Kick Members</td>
-              <td>Kick Members</td>
-              <td><code>*kick @user#0001 Reason for the kick.</code></td>
             </tr>
             <tr>
-              <td><code>*listwarns</code></td>
-              <td><code>*warns</code></td>
+              <td><code>#!listwarns</code></td>
+              <td><code>#!warns</code></td>
               <td>Lists the server members who have been warned.</td>
-              <td>-</td>
-              <td>Kick Members</td>
-              <td><code>*listWarns</code></td>
             </tr>
             <tr>
-              <td><code>*mute</code></td>
-              <td><code>*m</code></td>
+              <td><code>#!mute</code></td>
+              <td><code>#!m</code></td>
               <td>Mutes a mentioned user with an optional reason.</td>
-              <td>Mute Members</td>
-              <td>Mute Members</td>
-              <td><code>*mute @user#0001 Reason for the mute.</code></td>
             </tr>
             <tr>
-              <td><code>*nickname</code></td>
-              <td><code>*nick</code></td>
+              <td><code>#!nickname</code></td>
+              <td><code>#!nick</code></td>
               <td>Change the nickname of the mentioned user in the server to a specified nick. If no nick is specified, it resets the user's nickname.</td>
-              <td>Manage Nicknames</td>
-              <td>Manage Nicknames</td>
-              <td><code>*nickname @user#0001 The Legend</code><br><code>*nickname @user#0001</code></td>
             </tr>
             <tr>
-              <td><code>*removeallroles</code></td>
-              <td><code>*rmar</code></td>
+              <td><code>#!removeallroles</code></td>
+              <td><code>#!rmar</code></td>
               <td>Removes all roles from a mentioned user. If no user is mentioned, removes all roles from you.</td>
-              <td>Manage Roles</td>
-              <td>Manage Roles</td>
-              <td><code>*removeAllRoles @user#0001</code><br><code>*removeAllRoles</code></td>
             </tr>
             <tr>
-              <td><code>*removerole</code></td>
-              <td><code>*rmr</code></td>
+              <td><code>#!removerole</code></td>
+              <td><code>#!rmr</code></td>
               <td>Removes a user from a given role. If no user is mentioned, removes you from the given role.</td>
-              <td>Manage Roles</td>
-              <td>Manage Roles</td>
-              <td><code>*removeRole @user#0001 Role Name</code><br><code>*removeRole Role Name</code></td>
             </tr>
             <tr>
-              <td><code>*softban</code></td>
-              <td><code>*sb</code></td>
+              <td><code>#!softban</code></td>
+              <td><code>#!sb</code></td>
               <td>Bans &amp; unbans a mentioned user, and removes 7 days of their message history.</td>
-              <td>Ban Members</td>
-              <td>Ban Members</td>
-              <td><code>*softBan @user#0001 Reason for soft ban.</code></td>
             </tr>
             <tr>
-              <td><code>*textmute</code></td>
-              <td><code>*tm</code></td>
+              <td><code>#!textmute</code></td>
+              <td><code>#!tm</code></td>
               <td>Mutes a mentioned user from sending messages in a channel with an optional reason.</td>
-              <td>Manage Roles</td>
-              <td>Mute Members</td>
-              <td><code>*textMute @user#0001 Reason for the mute.</code></td>
             </tr>
             <tr>
-              <td><code>*textunmute</code></td>
-              <td><code>*tum</code></td>
+              <td><code>#!textunmute</code></td>
+              <td><code>#!tum</code></td>
               <td>UnMutes a previously muted user in a channel with an optional reason.</td>
-              <td>Manage Roles</td>
-              <td>Mute Members</td>
-              <td><code>*textUnMute @user#0001 Reason for the unmute.</code></td>
             </tr>
             <tr>
-              <td><code>*undeafen</code></td>
-              <td><code>*undeaf</code></td>
+              <td><code>#!undeafen</code></td>
+              <td><code>#!undeaf</code></td>
               <td>UnDeafens a mentioned user with an optional reason.</td>
-              <td>Deafen Members</td>
-              <td>Deafen Members</td>
-              <td><code>*unDeafen @user#0001 Reason for undeafening.</code></td>
             </tr>
             <tr>
-              <td><code>*unmute</code></td>
+              <td><code>#!unmute</code></td>
               <td><code>-</code></td>
               <td>Unmutes a mentioned user with an optional reason.</td>
-              <td>Mute Members</td>
-              <td>Mute Members</td>
-              <td><code>*unMute @user#0001 Reason for the unmute.</code></td>
             </tr>
             <tr>
-              <td><code>*warn</code></td>
-              <td><code>*w</code></td>
+              <td><code>#!warn</code></td>
+              <td><code>#!w</code></td>
               <td>Warns a mentioned user with an optional reason. After 3 warnings are given, the users automatically gets kicked from the server.</td>
-              <td>Kick Members</td>
-              <td>Kick Members</td>
-              <td><code>*warn @user#0001 Reason for the warn.</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured blue table">
           <caption>MUSIC</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*addfav</code></td>
+              <td><code>#!addfav</code></td>
               <td><code>-</code></td>
               <td>Adds a song to your favourite list specified by name/link.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*addFav one more night</code><br><code>*addFav https://www.youtube.com/watch?v=JGwWNGJdvx8</code></td>
             </tr>
             <tr>
-              <td><code>*musicchannel</code></td>
+              <td><code>#!musicchannel</code></td>
               <td><code>-</code></td>
               <td>Adds a voice channel (by ID) &amp; a text channel (the channel this command was used) specific for the music module. i.e, BOT will only accept music commands in that text channel &amp; if any one summons the bot it will automatically join the that voice channel. If channel ID is not given, it removes the default music channel.</td>
-              <td>-</td>
-              <td>Bot Owner</td>
-              <td><code>*musicChannel VOICE_CHANNEL_ID</code><br><code>*musicChannel</code></td>
             </tr>
             <tr>
-              <td><code>*clean</code></td>
+              <td><code>#!clean</code></td>
               <td><code>-</code></td>
               <td>Cleans up the music queue.</td>
-              <td>-</td>
-              <td>Mute Members</td>
-              <td><code>*clean</code></td>
             </tr>
             <tr>
-              <td><code>*listfavs</code></td>
+              <td><code>#!listfavs</code></td>
               <td><code>-</code></td>
               <td>Lists the songs in your favourite list.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*listFavs</code><br><code>*listFavs 2</code></td>
             </tr>
             <tr>
-              <td><code>*np</code></td>
+              <td><code>#!np</code></td>
               <td><code>-</code></td>
               <td>Shows the currently playing music.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*np</code></td>
             </tr>
             <tr>
-              <td><code>*pause</code></td>
+              <td><code>#!pause</code></td>
               <td><code>-</code></td>
               <td>Pauses the current music playback.</td>
-              <td>-</td>
-              <td>Mute Members</td>
-              <td><code>*pause</code></td>
             </tr>
             <tr>
-              <td><code>*play</code></td>
+              <td><code>#!play</code></td>
               <td><code>-</code></td>
               <td>Plays a song (adds the song to the queue if already playing) specified by name/link. To play songs in a YouTube playlist, use <code>-pl</code> argument with the playlist link. To play songs in your favourites use <code>-favs</code> argument instead of song name/link.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*play shape of you</code><br><code>*play https://www.youtube.com/watch?v=GoUyrUwDN64</code><br><code>*play -pl https://www.youtube.com/playlist?list=PL4zQ6RXLMCJx4RD3pyzRX4QYFubtCdn_k</code><br><code>*play -favs</code></td>
             </tr>
             <tr>
-              <td><code>*queue</code></td>
+              <td><code>#!queue</code></td>
               <td><code>-</code></td>
               <td>Shows the list of music in the queue.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*queue</code></td>
             </tr>
             <tr>
-              <td><code>*repeat</code></td>
+              <td><code>#!repeat</code></td>
               <td><code>-</code></td>
               <td>Toggles the currently playing song to/from the repeat queue.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*repeat</code></td>
             </tr>
             <tr>
-              <td><code>*resume</code></td>
+              <td><code>#!resume</code></td>
               <td><code>-</code></td>
               <td>Resumes the paused music playback.</td>
-              <td>-</td>
-              <td>Mute Members</td>
-              <td><code>*resume</code></td>
             </tr>
             <tr>
-              <td><code>*shuffle</code></td>
+              <td><code>#!shuffle</code></td>
               <td><code>-</code></td>
               <td>Shuffles the songs in the current queue.</td>
-              <td>-</td>
-              <td>Mute Members</td>
-              <td><code>*shuffle</code></td>
             </tr>
             <tr>
-              <td><code>*skip</code></td>
+              <td><code>#!skip</code></td>
               <td><code>-</code></td>
               <td>Skips the current music and plays the next music in the queue (if any).</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*skip</code></td>
             </tr>
             <tr>
-              <td><code>*stop</code></td>
+              <td><code>#!stop</code></td>
               <td><code>-</code></td>
               <td>Stops music playback, empties the queue and tells the BOT to leave the voice channel.</td>
-              <td>-</td>
-              <td>Mute Members</td>
-              <td><code>*stop</code></td>
             </tr>
             <tr>
-              <td><code>*volume</code></td>
+              <td><code>#!volume</code></td>
               <td><code>-</code></td>
               <td>Increases/descreases volume of current music by 2% if + or - is specified, respectively. Or if a number is specified, sets the volume to the specified amount.</td>
-              <td>-</td>
-              <td>Mute Members</td>
-              <td><code>*volume +</code><br><code>*volume -</code><br><code>*volume 25</code></td>
             </tr>
             <tr>
-              <td><code>*summon</code></td>
-              <td><code>*join</code></td>
+              <td><code>#!summon</code></td>
+              <td><code>#!join</code></td>
               <td>Tells the BOT to join the default voice channel (if any), set by the BOT owner. Doesn't apply to BOT owner.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*summon</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured blue table">
           <caption>GAME STATS</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*callofduty4</code></td>
-              <td><code>*cod4</code></td>
+              <td><code>#!callofduty4</code></td>
+              <td><code>#!cod4</code></td>
               <td>Get status of any Call of Duty 4®: Modern Warfare® game server by it's IP address and optional PORT number.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*callOfDuty4 139.59.31.128:27016</code></td>
             </tr>
             <tr>
-              <td><code>*counterstrikeglobaloffensive</code></td>
-              <td><code>*csgo</code></td>
+              <td><code>#!counterstrikeglobaloffensive</code></td>
+              <td><code>#!csgo</code></td>
               <td>Get status of any Counter-Strike: Global Offensive game server by it's IP address and optional PORT number.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*counterStrikeGlobalOffensive 139.59.31.128:27015</code></td>
             </tr>
             <tr>
-              <td><code>*minecraft</code></td>
-              <td><code>*mc</code></td>
+              <td><code>#!minecraft</code></td>
+              <td><code>#!mc</code></td>
               <td>Get status of any Minecraft game server by it's IP address and optional PORT number.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*minecraft 139.59.31.128:25565</code></td>
             </tr>
             <tr>
-              <td><code>*teamfortress2</code></td>
-              <td><code>*tf2</code></td>
+              <td><code>#!teamfortress2</code></td>
+              <td><code>#!tf2</code></td>
               <td>Get status of any Team Fortress game server by it's IP address and optional PORT number.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*teamFortress2 139.59.31.128:27015</code></td>
             </tr>
             <tr>
-              <td><code>*overwatch</code></td>
-              <td><code>*ow</code></td>
+              <td><code>#!overwatch</code></td>
+              <td><code>#!ow</code></td>
               <td>Shows Overwatch player stats specified by his Region and BattleTag.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*overwatch GH0S7#11143</code></td>
             </tr>
             <tr>
-              <td><code>*rainbow6</code></td>
-              <td><code>*r6</code></td>
+              <td><code>#!rainbow6</code></td>
+              <td><code>#!r6</code></td>
               <td>Shows Ranbow 6 player stats specified by his platform and username.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*rainbow6 uplay SaffronPants</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured blue table">
           <caption>GAMES</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*acrophobia</code></td>
-              <td><code>*acro</code></td>
+              <td><code>#!acrophobia</code></td>
+              <td><code>#!acro</code></td>
               <td>Starts a acrophobia game. The user will have to make a sentence from the given acronym within 2 minutes. After the submission is done, users can vote for the best sentence, the sentence to get highest no. of votes win.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*acrophobia</code></td>
             </tr>
             <tr>
-              <td><code>*flip</code></td>
+              <td><code>#!flip</code></td>
               <td><code>-</code></td>
               <td>Flips a coin and gives you the the outcome (Heads or Tails). If a number is provided as an argument, it flips that no. of coins.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*flip</code><br><code>*flip 5</code></td>
             </tr>
             <tr>
-              <td><code>*magic8Ball</code></td>
-              <td><code>*8Ball</code></td>
+              <td><code>#!magic8Ball</code></td>
+              <td><code>#!8Ball</code></td>
               <td>Ask the Magic 8-Ball a polar (yes/no) question.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*magic8ball Do I need a new lease on life?</code></td>
             </tr>
             <tr>
-              <td><code>*roll</code></td>
+              <td><code>#!roll</code></td>
               <td><code>-</code></td>
               <td>Rolls a dice and gives you the the outcome. If a number is provided as an argument, it rolls that no. of dices.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*roll</code><br><code>*roll 5</code></td>
             </tr>
             <tr>
-              <td><code>*rps</code></td>
+              <td><code>#!rps</code></td>
               <td><code>-</code></td>
               <td>Play the classic rock paper scissor game with the bot.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*rps Rock</code></td>
             </tr>
             <tr>
-              <td><code>*russianroulette</code></td>
-              <td><code>*rr</code></td>
+              <td><code>#!russianroulette</code></td>
+              <td><code>#!rr</code></td>
               <td>Play the ultimate game of chance - Russian Roulette! Let's see if you live or die.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*russianRoulette</code><br><code>*russianRoulette 7</code></td>
             </tr>
             <tr>
-              <td><code>*slots</code></td>
+              <td><code>#!slots</code></td>
               <td><code>-</code></td>
               <td>Spins the reels of the slot machine and shows you the result.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*slots</code></td>
             </tr>
             <tr>
-              <td><code>*thisorthat</code></td>
-              <td><code>*thisthat</code></td>
+              <td><code>#!thisorthat</code></td>
+              <td><code>#!thisthat</code></td>
               <td>Asks you a this or that question. Let's see how is your choice!</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*thisOrThat</code></td>
             </tr>
             <tr>
-              <td><code>*typingstart</code></td>
-              <td><code>*typestart</code></td>
+              <td><code>#!typingstart</code></td>
+              <td><code>#!typestart</code></td>
               <td>Starts a typing speed competition. The user to type the given article and send it first, wins. It automatically ends in 5 mins if no one is able to type the article by this time.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*typingStart</code></td>
             </tr>
             <tr>
-              <td><code>*wouldyourather</code></td>
-              <td><code>*wouldyou</code></td>
+              <td><code>#!wouldyourather</code></td>
+              <td><code>#!wouldyou</code></td>
               <td>Asks you a would you rather question! Let's see how you answer that.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*wouldYouRather</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured blue table">
           <caption>MONEY</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*give</code></td>
+              <td><code>#!give</code></td>
               <td><code>-</code></td>
               <td>Give any specified user (by mention or ID) Bastion Currencies deducting that amout from your currencies. If you are the BOT owner, you can give anyone any amount of Bastion Currencies.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*give 100 @user#0001</code><br><code>*give 150 2233445566778899</code></td>
             </tr>
             <tr>
-              <td><code>*halloffame</code></td>
-              <td><code>*hof</code></td>
+              <td><code>#!halloffame</code></td>
+              <td><code>#!hof</code></td>
               <td>Shows the top 10 ranking with the highest level &amp; experience points from all the users of the bot.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*halloffame</code></td>
             </tr>
             <tr>
-              <td><code>*leaderboard</code></td>
-              <td><code>*lb</code></td>
+              <td><code>#!leaderboard</code></td>
+              <td><code>#!lb</code></td>
               <td>Shows the top 10 ranking with the highest amount of Bastion Currencies from all the users of the bot.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*leaderboard</code></td>
             </tr>
             <tr>
-              <td><code>*profile</code></td>
+              <td><code>#!profile</code></td>
               <td><code>-</code></td>
               <td>Shows a mentioned user's Bastion profile. If no one is mentioned, shows your profile.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*profle</code><br><code>*profle @user#0001</code></td>
             </tr>
             <tr>
-              <td><code>*take</code></td>
-              <td><code>*fine</code></td>
+              <td><code>#!take</code></td>
+              <td><code>#!fine</code></td>
               <td>Give any specified user (by mention or ID) penalty/fine by deducting a certain amount of Bastion Currencies from his profile, with an optional specified reason.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*take 100 @user#0001 Misbehaving</code><br><code>*take 150 2233445566778899</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured blue table">
           <caption>GAMBLING</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*betflip</code></td>
-              <td><code>*bf</code></td>
+              <td><code>#!betflip</code></td>
+              <td><code>#!bf</code></td>
               <td>Bets a specified amount of Bastion currency on prediction of the outcome of flipping a coin. If you win, you win more Bastion Currencies. If you lose, you lose the amount of currency you've bet.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*betflip 100 heads</code></td>
             </tr>
             <tr>
-              <td><code>*betroll</code></td>
-              <td><code>*br</code></td>
+              <td><code>#!betroll</code></td>
+              <td><code>#!br</code></td>
               <td>Bets a specified amount of Bastion currency on prediction of the outcome of rolling a dice. If you win, you win more Bastion Currencies. If you lose, you lose the amount of currency you've bet.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*betroll 100 three</code></td>
             </tr>
             <tr>
-              <td><code>*sweep</code></td>
+              <td><code>#!sweep</code></td>
               <td><code>-</code></td>
               <td>Shows a random user from the server.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*sweep</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured blue table">
           <caption>FUN</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*airhorn</code></td>
-              <td><code>*horn</code></td>
+              <td><code>#!airhorn</code></td>
+              <td><code>#!horn</code></td>
               <td>plays an airhorn in the current voice channel.</td>
-              <td>-</td>
-              <td>Mute Members</td>
-              <td><code>*airhorn</code></td>
             </tr>
             <tr>
-              <td><code>*catfact</code></td>
-              <td><code>*cfact</code></td>
+              <td><code>#!catfact</code></td>
+              <td><code>#!cfact</code></td>
               <td>Shows a random catfact.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*catFact</code></td>
             </tr>
             <tr>
-              <td><code>*crimecoefficient</code></td>
-              <td><code>*ccof</code><br><code>*ccoef</code></td>
+              <td><code>#!crimecoefficient</code></td>
+              <td><code>#!ccof</code><br><code>#!ccoef</code></td>
               <td>Finds the crime coefficient of a mentioned user. If no user is mentioned, it finds the crime coefficient of yours.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*crimecoefficient</code><br><code>*crimecoefficient @user#0001</code></td>
             </tr>
             <tr>
-              <td><code>*echo</code></td>
-              <td><code>*say</code></td>
+              <td><code>#!echo</code></td>
+              <td><code>#!say</code></td>
               <td>Sends the same message that you send as an argument. Just like an echo!</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*echo Hello, World!</code></td>
             </tr>
             <tr>
-              <td><code>*edgelord</code></td>
-              <td><code>*edgy</code></td>
+              <td><code>#!edgelord</code></td>
+              <td><code>#!edgy</code></td>
               <td>Shows an awesome message from an edgelord!</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*edgeLord</code></td>
             </tr>
             <tr>
-              <td><code>*fliptext</code></td>
+              <td><code>#!fliptext</code></td>
               <td><code>-</code></td>
               <td>Flips a given text.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*flipText This is Upside Down!</code></td>
             </tr>
             <tr>
-              <td><code>*fortune</code></td>
-              <td><code>*cookie</code></td>
+              <td><code>#!fortune</code></td>
+              <td><code>#!cookie</code></td>
               <td>Shows you a fortune from fortune cookie.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*fortune</code></td>
             </tr>
             <tr>
-              <td><code>*leet</code></td>
+              <td><code>#!leet</code></td>
               <td><code>-</code></td>
               <td>Changes a given text to leet text.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*leet Hello, Everyone!</code></td>
             </tr>
             <tr>
-              <td><code>*piratespeak</code></td>
-              <td><code>*pirate</code></td>
+              <td><code>#!piratespeak</code></td>
+              <td><code>#!pirate</code></td>
               <td>Convert's the given text to pirate speak.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*pirateSpeak You can always trust the untrustworthy because you can always trust that they will be untrustworthy. Its the trustworthy you can’t trust.</code></td>
             </tr>
             <tr>
-              <td><code>*quotes</code></td>
-              <td><code>*q</code></td>
+              <td><code>#!quotes</code></td>
+              <td><code>#!q</code></td>
               <td>Shows a quote to get you inspired. Search a quote by it's index no. or by the author. If none is provided, shows a random quote.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*quotes</code><br><code>*quotes 189</code><br><code>*quotes Albert Einstein</code></td>
             </tr>
             <tr>
-              <td><code>*reverse</code></td>
-              <td><code>*rev</code></td>
+              <td><code>#!reverse</code></td>
+              <td><code>#!rev</code></td>
               <td>Reverse a given string.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*reverse !looc si sihT</code></td>
             </tr>
             <tr>
-              <td><code>*sendEmbed</code></td>
+              <td><code>#!sendEmbed</code></td>
               <td><code>-</code></td>
-              <td>Sends an embed message created from the specified embed JavaScript object. To create an embed object, graphically, [click here](https://bastion.js.org/tools/embed_builder/).</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*sendEmbed {title: "Hello", description: "Isn't it cool?"}</code></td>
+              <td>Sends an embed message created from the specified embed JavaScript object. To create an embed object, graphically, use the <a href="https://bastion.js.org/tools/embed_builder/">embed builder</a>.</td>
             </tr>
             <tr>
-              <td><code>*xkcd</code></td>
+              <td><code>#!xkcd</code></td>
               <td><code>-</code></td>
               <td>Shows a <b>xkcd</b> comic. No arguments will shows a random comic. If a comic number is given, it will show that specific comic &amp; 'latest' will show the latest comic.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*xkcd</code><br><code>*xkcd latest</code><br><code>*xkcd 834</code></td>
             </tr>
             <tr>
-              <td><code>*zaloglize</code></td>
-              <td><code>*zalgo</code></td>
+              <td><code>#!zaloglize</code></td>
+              <td><code>#!zalgo</code></td>
               <td>Zaloglize a given text.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*zaloglize It looks clumsy, but it's cool!</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured blue table">
           <caption>INFO</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*avatar</code></td>
-              <td><code>*av</code></td>
+              <td><code>#!avatar</code></td>
+              <td><code>#!av</code></td>
               <td>Shows a mentioned person's avatar. If no one is mentioned, it wil show your avatar.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*avatar @user#001</code><br><code>*avatar</code></td>
             </tr>
             <tr>
-              <td><code>*channelid</code></td>
-              <td><code>*cid</code></td>
+              <td><code>#!channelid</code></td>
+              <td><code>#!cid</code></td>
               <td>Shows the id of the mentioned channel. If no channel is mentioned, shows the id of the current channel.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*channelID #channel-name</code><br><code>*channelID</code></td>
             </tr>
             <tr>
-              <td><code>*channelinfo</code></td>
-              <td><code>*cinfo</code></td>
+              <td><code>#!channelinfo</code></td>
+              <td><code>#!cinfo</code></td>
               <td>Shows information about the mentioned channel. If no channel is mentioned, shows information about the current channel.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*channelInfo #channel-name</code><br><code>*channelInfo</code></td>
             </tr>
             <tr>
-              <td><code>*channeltopic</code></td>
-              <td><code>*ct</code></td>
+              <td><code>#!channeltopic</code></td>
+              <td><code>#!ct</code></td>
               <td>Returns a mentioned channel's topic. Or current channle's topic, if no channel is mentioned.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*channelTopic #channel-name</code><br><code>*channelTopic</code></td>
             </tr>
             <tr>
-              <td><code>*discrim</code></td>
+              <td><code>#!discrim</code></td>
               <td><code>-</code></td>
               <td>Searches the server for users with the specified discriminator.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*discrim 8383</code></td>
             </tr>
             <tr>
-              <td><code>*emojiinfo</code></td>
-              <td><code>*einfo</code></td>
+              <td><code>#!emojiinfo</code></td>
+              <td><code>#!einfo</code></td>
               <td>Shows information about the mentioned custom emoji.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*emojiInfo :bastion:</code></td>
             </tr>
             <tr>
-              <td><code>*inrole</code></td>
+              <td><code>#!inrole</code></td>
               <td><code>-</code></td>
               <td>Shows the list of all the users in a specified role.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*inRole Role Name</code><br><code>inrole @roleMention</code></td>
             </tr>
             <tr>
-              <td><code>*roleinfo</code></td>
-              <td><code>*rinfo</code></td>
+              <td><code>#!roleinfo</code></td>
+              <td><code>#!rinfo</code></td>
               <td>Shows information about the specified role.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*roleInfo @Dark Knigths</code><br><code>*roleInfo The Legends</code></td>
             </tr>
             <tr>
-              <td><code>*roles</code></td>
+              <td><code>#!roles</code></td>
               <td><code>-</code></td>
               <td>Shows the list of roles in the server.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*roles</code></td>
             </tr>
             <tr>
-              <td><code>*serverid</code></td>
-              <td><code>*sid</code></td>
+              <td><code>#!serverid</code></td>
+              <td><code>#!sid</code></td>
               <td>Shows the server's ID the command was invoked in.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*serverID</code></td>
             </tr>
             <tr>
-              <td><code>*serverinfo</code></td>
-              <td><code>*sinfo</code></td>
+              <td><code>#!serverinfo</code></td>
+              <td><code>#!sinfo</code></td>
               <td>Shows the server's information the command was invoked in.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*serverInfo</code></td>
             </tr>
             <tr>
-              <td><code>*stats</code></td>
-              <td><code>*info</code></td>
+              <td><code>#!stats</code></td>
+              <td><code>#!info</code></td>
               <td>Display stats &amp; info about the bot.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*stats</code></td>
             </tr>
             <tr>
-              <td><code>*userid</code></td>
-              <td><code>*uid</code></td>
+              <td><code>#!userid</code></td>
+              <td><code>#!uid</code></td>
               <td>Shows the mentioned user's ID. If no user is mentioned, shows your ID.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*userID @user#0001</code><br><code>*userID</code></td>
             </tr>
             <tr>
-              <td><code>*userinfo</code></td>
-              <td><code>*uinfo</code></td>
+              <td><code>#!userinfo</code></td>
+              <td><code>#!uinfo</code></td>
               <td>Shows information about the mentioned user. If no user is mentioned, shows information about you.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*userInfo @user#0001</code><br><code>*userInfo</code></td>
             </tr>
           </tbody>
         </table>
 
-        <table class="ui very compact small selectable sortable celled structured table">
+        <table class="ui very compact small selectable sortable celled structured blue table">
           <caption>QUERIES</caption>
           <thead>
             <tr>
-              <th rowspan="2">Command</th>
-              <th rowspan="2">Alias</th>
-              <th rowspan="2">Description</th>
-              <th colspan="2">Permissions</th>
-              <th rowspan="2">Usage</th>
-            </tr>
-            <tr>
-              <th>Bot</th>
-              <th>User</th>
+              <th>Command</th>
+              <th>Alias</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>*calculate</code></td>
-              <td><code>*calc</code></td>
+              <td><code>#!calculate</code></td>
+              <td><code>#!calc</code></td>
               <td>Evaluates a mathematical expression.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*calculate 9 * 10 - 11</code></td>
             </tr>
             <tr>
-              <td><code>*capture</code></td>
+              <td><code>#!capture</code></td>
               <td><code>-</code></td>
               <td>Captures and sends a screenshot of a specified webpage.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*capture bastion.js.org</code></td>
             </tr>
             <tr>
-              <td><code>*choose</code></td>
-              <td><code>*decide</code></td>
+              <td><code>#!choose</code></td>
+              <td><code>#!decide</code></td>
               <td>Ask the bot to choose a option from any number of options, separated by a <code>/</code>.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*choose Chocolate/Ice Cream/Cake</code></td>
             </tr>
             <tr>
-              <td><code>*cite</code></td>
+              <td><code>#!cite</code></td>
               <td><code>-</code></td>
               <td>Cites a users message, specified by the message ID, in the channel.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*cite 221133446677558899</code></td>
             </tr>
             <tr>
-              <td><code>*color</code></td>
-              <td><code>*colour</code></td>
+              <td><code>#!color</code></td>
+              <td><code>#!colour</code></td>
               <td>Convert <code>HEX</code> Color to <code>RGB</code>, <code>CMYK</code>, <code>HSL</code>, <code>HSV</code>, <code>HWB</code>, <code>LAB</code>, <code>ANSI16</code>, <code>ANSI256</code>, <code>XYZ</code>, <code>HCG</code>, <code>Apple</code>, <code>Gray</code> and CSS Keyword (Rounds to closest color).</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*color #dd0000</code></td>
             </tr>
             <tr>
-              <td><code>*define</code></td>
-              <td><code>*meaning</code></td>
+              <td><code>#!define</code></td>
+              <td><code>#!meaning</code></td>
               <td>Searches the definition of a word from English, French or German dictionary (specified in the message; if no language is specified, defaults to English).</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*define Colonel</code><br><code>*define de Soldat</code><br><code>*define en Warrior</code><br><code>*define fr Guerre</code></td>
             </tr>
             <tr>
-              <td><code>*endpoll</code></td>
+              <td><code>#!endpoll</code></td>
               <td><code>-</code></td>
               <td>Ends an ongoing poll and shows the result.</td>
-              <td>-</td>
-              <td>Poll Author or Server owner</td>
-              <td><code>*endpoll</code></td>
             </tr>
             <tr>
-              <td><code>*forecast</code></td>
-              <td><code>*wefc</code></td>
+              <td><code>#!forecast</code></td>
+              <td><code>#!wefc</code></td>
               <td>Shows weather forecast for 5 days for a specified location by name or ZIP Code.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*forecast London, UK</code><br><code>*forecast 94109</code></td>
             </tr>
             <!-- <tr>
-              <td><code>*imdb</code></td>
+              <td><code>#!imdb</code></td>
               <td><code>-</code></td>
               <td>Shows details of a movie or a TV series.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*imdb Snowden</code><br><code>*imdb The Blacklist</code></td>
             </tr> -->
             <tr>
-              <td><code>*live</code></td>
+              <td><code>#!live</code></td>
               <td><code>-</code></td>
               <td>Shows the list of users in the server who are currently streaming.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*live</code></td>
             </tr>
-              <td><code>*lmgtfy</code></td>
+              <td><code>#!lmgtfy</code></td>
               <td><code>-</code></td>
               <td>A tool to teach other people how to use Google's internet search.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*lmgtfy How to shutdown a computer?</code></td>
             </tr>
             <tr>
-              <td><code>*map</code></td>
+              <td><code>#!map</code></td>
               <td><code>-</code></td>
               <td>Get the map of the specified location. It takes an optional <code>--zoom</code> argument which takes an zoom amount from value 0 to 20.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*map New York, NY</code><br><code>*map London Eye, London --zoom 18</code></td>
             </tr>
             <tr>
-              <td><code>*morsecode</code></td>
-              <td><code>*morse</code></td>
+              <td><code>#!morsecode</code></td>
+              <td><code>#!morse</code></td>
               <td>Encodes a given text into Morse Code.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*morseCode Shh! This is a secret.</code></td>
             </tr>
             <tr>
-              <td><code>*poll</code></td>
+              <td><code>#!poll</code></td>
               <td><code>-</code></td>
-              <td>Starts a poll which requires users to vote using the <code>*vote</code> command. Separate question &amp; each answers with <code>;</code></td>
-              <td>Manage Messages</td>
-              <td>-</td>
-              <td><code>*poll Which is the game of the week?;Call of Duty©: Infinity Warfare;Tom Clancy's Ghost Recon© Wildlands;Watch Dogs 2</code></td>
+              <td>Starts a poll which requires users to vote using the <code>#!vote</code> command. Separate question &amp; each answers with <code>;</code></td>
             </tr>
             <tr>
-              <td><code>*shorten</code></td>
+              <td><code>#!shorten</code></td>
               <td><code>-</code></td>
               <td>Shortens a specified URL using Google URL Shortner.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*shorten https://bastion.js.org/SomeLongURL</code></td>
             </tr>
             <tr>
-              <td><code>*tapcode</code></td>
-              <td><code>*tap</code></td>
+              <td><code>#!tapcode</code></td>
+              <td><code>#!tap</code></td>
               <td>Encodes a given text into Tap Code.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*tapCode Knock Knock</code></td>
             </tr>
             <tr>
-              <td><code>*translate</code></td>
-              <td><code>*trans</code></td>
+              <td><code>#!translate</code></td>
+              <td><code>#!trans</code></td>
               <td>Translates your message to a language specified in the arguments by the language code.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*translate EN Je suis génial!</code></td>
             </tr>
             <tr>
-              <td><code>*urbandictionary</code></td>
-              <td><code>*ud</code></td>
+              <td><code>#!urbandictionary</code></td>
+              <td><code>#!ud</code></td>
               <td>Searches Urban Dictionary for a urban definition of word.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*urbanDictionary pineapple</code></td>
             </tr>
             <tr>
-              <td><code>*weather</code></td>
-              <td><code>*we</code></td>
+              <td><code>#!weather</code></td>
+              <td><code>#!we</code></td>
               <td>Shows weather information for a specified location by name or ZIP Code.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*weather London, UK</code><br><code>*weather 94109</code></td>
             </tr>
             <tr>
-              <td><code>*wikipedia</code></td>
-              <td><code>*wiki</code></td>
+              <td><code>#!wikipedia</code></td>
+              <td><code>#!wiki</code></td>
               <td>Searches Wikipedia for a given query and shows the result.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*wikipedia Steve Jobs</code></td>
             </tr>
             <tr>
-              <td><code>*youtubesearch</code></td>
-              <td><code>*ytsearch</code></td>
+              <td><code>#!youtubesearch</code></td>
+              <td><code>#!ytsearch</code></td>
               <td>Searches for a video on YouTube and shows the first result.</td>
-              <td>-</td>
-              <td>-</td>
-              <td><code>*youtubeSearch Call of Duty WW2</code></td>
             </tr>
           </tbody>
         </table>
@@ -1746,7 +1155,7 @@
           }
         })
       ;
-      $('table').tablesort()
+      $('table').tablesort();
     </script>
   </body>
 </html>
