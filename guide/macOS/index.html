@@ -62,7 +62,7 @@
     </style>
     <link rel="stylesheet" href="../../assets/css/style.css">
   </head>
-  
+
   <body id="top">
     <div class="ui left vertical menu sidebar">
       <div class="item close">CLOSE<i class="x icon"></i></div>
@@ -71,14 +71,14 @@
       <a href="../../commands/" class="item">Commands</a>
       <a href="../../support/" class="item">Help &amp; Support</a>
       <a href="../../add/" class="item">Add BOT to Discord</a>
-      
+
       <div class="grey item active">MORE<i class="angle down icon"></i></div>
       <a href="../../faq/" class="item">F.A.Q.</a>
       <a href="../../changes/" class="item">Change Log</a>
       <a href="https://sankarsankampa.com" target="_blank" class="item">Developer<i class="external icon"></i></a>
       <a href="https://sankarsankampa.com/contact" target="_blank" class="item">Contact<i class="external icon"></i></a>
     </div>
-    
+
     <div class="pusher">
     <div class="ui top fixed menu">
       <a id="menu-icon" class="item">
@@ -105,7 +105,7 @@
                   and press <kbd>Enter</kbd>.
                 </div>
               </div>
-              
+
               <h3 id="step2">2.&ensp;Install Bastion</h3>
               <div class="ui list">
                 <div class="item">
@@ -116,14 +116,22 @@
                 <div class="item">Wait a while for Bastion installer to finish installing.</div>
                 <div class="item">You should now have a new folder named <b>Bastion</b> in your <code>HOME</code> (<code>~</code>) directory.</div>
               </div>
-              
+
               <h3 id="step3">3.&ensp;Configuration</h3>
               <p>If you didn't set up BOT ID, BOT Token, Owner ID, Cleverbot API Key, Command Prefix, BOT Status &amp; BOT Game during BOT Installation, read <a href="../../faq/">the Configuration section in F.A.Q.</a></p>
-              
+
               <h3 id="step4">4.&ensp;Running Bastion BOT</h3>
               <div class="ui list">
                 <div class="item">Assuming you are still inside <code>Bastion</code> directory, in you Terminal, type:</div>
-                <pre>sudo ./run.sh</pre>
+                <!-- <pre>sudo ./run.sh</pre> -->
+                <pre>screen -S Bastion<br>sudo node .</pre>
+                <div class="item">Now press <b>Ctrl</b> + <b>A</b> + <b>D</b> to detach the screen. This will make Bastion run in the background.</div>
+                <div class="item">To see the list of screens type:</div>
+                <pre>screen -ls</pre>
+                <div class="item">If you want to resume a screen, type:</div>
+                <pre>screen -r &lt;PID&gt;</pre>
+                <div class="item">For more help on <code>screen</code> command, in your Terminal, type:</div>
+                <pre>screen --help</pre>
               </div>
             </div>
             <div class="four wide large screen only column">
@@ -143,7 +151,7 @@
       </div>
     </div>
     </div>
-    
+
     <script src="../../assets/js/jquery-3.1.1.min.js"></script>
     <script src="../../assets/js/main.min.js"></script>
     <script>
